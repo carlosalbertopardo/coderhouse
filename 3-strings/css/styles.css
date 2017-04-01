@@ -1,0 +1,50 @@
+/* Base styles */
+
+body {
+	font-family: arial;
+}
+
+h1 {
+	color: #ac341c;
+	margin-bottom: 0px;
+	margin-top: 0;
+	font-size: 80px;
+	text-align: center;
+	line-height: 70px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-size: 30px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.center-auto {
+	margin: 0 auto; /* tambien se puede hacer "margin-left: auto;margin-right:auto;" y lograr lo mismo */ 
+}
+
+.centered-block {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.block {
+	display: block;
+}
+
+.example {
+	background-color: #cccccc;
+	border: 1px solid #aaa;
+	padding: 20px;
+	margin-bottom: 20px;
+}

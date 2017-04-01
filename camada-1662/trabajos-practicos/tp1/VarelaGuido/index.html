@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Ejercicio 01 - JS</title>
+	<style type="text/css">
+	body{
+		font-family: arial;
+	}
+		.btn{
+			padding: 15px;
+			background: #12eeaa;
+			color: white;
+			border-radius: 5px;
+			display: block;
+			width: auto;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		.btn:hover{
+			background: white;
+			border: 2px thin #12eeaa;
+			color: #12eeaa;
+		}
+		ul{
+			list-style-type: none;
+		}
+		li{
+			display: inline-block;
+		}
+	</style>
+	<script type="text/javascript">
+		
+		function sumar(){
+			var nro1 = parseInt(prompt("Ingresar 1er número de la suma..."));
+			var nro2 = parseInt(prompt("Ingresar 2do número de la suma..."));
+			var suma = nro1 + nro2;
+			alert("El resultado de la suma es: "+suma);			
+		}
+		function restar(){
+			var nro1 = parseInt(prompt("Ingresar 1er número de la resta..."));
+			var nro2 = parseInt(prompt("Ingresar 2do número de la resta..."));
+			var resta = nro1 - nro2;
+			alert("El resultado de la resta es: "+resta);			
+		}
+		function multi(){
+			var nro1 = parseInt(prompt("Ingresar 1er número de la multiplicación..."));
+			var nro2 = parseInt(prompt("Ingresar 2do número de la multiplicación..."));
+			var multi = nro1 * nro2;
+			alert("El resultado de la multiplicación es: "+multi);			
+		}
+		function division(){
+			var nro1 = parseInt(prompt("Ingresar 1er número de la división..."));
+			var nro2 = parseInt(prompt("Ingresar 2do número de la división..."));
+			var divi = nro1 / nro2;
+			alert("El resultado de la división es: "+divi);			
+		}
+	</script>
+</head>
+<body>
+	<h2>Calculadora Javascript</h2>
+	<ul>
+		<li>
+			<a href="#" onclick="sumar()" class="btn">Sumar</a>
+			<!-- <input type="number" readonly id="resultadoSuma"> -->
+		</li>
+		<li>
+			<a href="#" onclick="restar()" class="btn">Restar</a>
+		</li>
+		<li>
+			<a href="#" onclick="multi()" class="btn">Multiplicar</a>
+		</li>
+		<li>
+			<a href="#" onclick="division()" class="btn">División</a>
+		</li>
+	</ul>
+	
+</body>
+</html>

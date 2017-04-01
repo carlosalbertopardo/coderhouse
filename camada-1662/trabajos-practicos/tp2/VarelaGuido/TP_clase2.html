@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CoderHouse - Clase2</title>
+	<link rel="stylesheet" href="">
+	<!-- Incersion directa -->
+	<script type="text/javascript">
+
+	var ingreso = prompt('Ingrese un dia de la semana:');
+	var diaIngresado = ingreso.toLowerCase();
+
+	var diasHabiles = ['lunes','martes','miercoles','jueves','viernes'];
+	var diasFinde = ['sabado','domingo'];
+
+	/*if(diasHabiles[0] == DiaIngresado){
+		console.log('Funca!');
+		console.log(DiaIngresado);
+	}else{
+		console.log('no funca :(');
+		console.log(DiaIngresado);
+	}*/
+
+	for (var i=0; i < diasHabiles.length; i++) {
+		if(diasHabiles[i]==diaIngresado){
+			console.log('El dia ingresado es un día hábil');
+			break;
+		}
+	}
+	for (var i=0; i < diasFinde.length; i++) {
+		if(diasFinde[i]==diaIngresado){
+			console.log('Estamos en el fin de semana! :)');
+			break;
+		}
+	}
+	</script>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Clase 2 -Trabajo Practico JS</h1>
+		</header>
+		<section>
+			<article>
+
+			</article>
+		</section>
+	</main>
+</body>
+</html>
