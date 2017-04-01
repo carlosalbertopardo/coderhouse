@@ -5,5 +5,5 @@ EJERCICIO N°4
 
 */
 
-var equiposDeFutbol = ['River','Boca','Racing','Independiente','San Lorenzo','Huracán'];
-console.log(equiposDeFutbol);
+var colores = ['rojo','azul','blanco','amarillo','verde','gris'];
+console.log(colores);
