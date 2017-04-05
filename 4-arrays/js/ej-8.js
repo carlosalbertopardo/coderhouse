@@ -1,4 +1,8 @@
-/* Realizar un programa en el cual se ingresen los nombres de los alumnos de la clase con la funcion "prompt". 
+/*
+
+EJERCICIO N°8 
+
+Realizar un programa en el cual se ingresen los nombres de los alumnos de la clase con la funcion "prompt". 
 Para detener la carga de datos, usar la función "confirm".
 Una vez terminada la carga de dato, analizarlos de la siguiente forma:
 - En el caso de que la cantidad de alumnos ingresados sea la de la totalidad de los alumnos de la clase, indicar con un alert que todos los alumnos

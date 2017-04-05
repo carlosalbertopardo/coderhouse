@@ -8,4 +8,3 @@ EJERCICIO N°5
 var apellidos = ["Gonzalez","Pérez","Blanco","Espósito","Martínez"];
 var colores = ["Azul","Verde","Amarillo","Blanco","Naranja"];
 
-

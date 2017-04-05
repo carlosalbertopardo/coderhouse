@@ -7,7 +7,5 @@ Sin reemplazar ninguna posicion del mismo.
 
 */
 
-console.log("Se cargo bien el archivo");
-
 var marcas = ['Ferrari','Audi','Nissan','Kia','Chevrolet','Ballena','Volkswagen'];
 
