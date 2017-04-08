@@ -1,31 +1,12 @@
+/*  
 
-var array1 = [123,'azul',true,false,'verde','gris'];
-var array2 = ['azul','gris'];
+EJERCICIO N°10
+"Dado el array "provincias", mostrar todo su contenido por pantalla."
 
+*/
 
-function checkArray(arrayToCheck) {
-	var cantidadStrings = 0;
-	var cantidadNumbers = 0;
-	var cantidadBooleans = 0;
-
-	for (var i = 0; i < arrayToCheck.length; i++) {
-
-		if (typeof(arrayToCheck[i]) === 'string') {
-			cantidadStrings++;
-		} else if (typeof(arrayToCheck[i]) === 'number') {
-			cantidadNumbers++
-		} else if (typeof(arrayToCheck[i]) === 'boolean') {
-			cantidadBooleans++
-		}
-
-	}
-
-	console.log(cantidadStrings);
-	console.log(cantidadNumbers);
-	console.log(cantidadBooleans);
-	console.log('///////////////');
-
-}
-
-checkArray(array1);
-checkArray(array2);
+var paises = [
+	["Buenos Aires", "Tucumán", "Salta", "Chubut"],
+	["Río de Janeiro", "San Pablo"],
+	["Montevideo", "Canelones"]
+];

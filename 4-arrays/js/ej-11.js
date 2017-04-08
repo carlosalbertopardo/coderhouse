@@ -1,17 +1,9 @@
-var cadena = "En un lugar de la Mancha de cuyo nombre no quiero acordarme...";
-var letras = cadena.split("");
-var resultado = "";
-for(i in letras) {
-if(letras[i] == 'a') {
-	console.log('lalalalal');
-continue;
+/*  
 
-	console.log('pepepepe');
+EJERCICIO N°11
+"Dado el array mostrar todo su contenido por pantalla"
 
-}
-else {
-resultado += letras[i];
-}
-}
-alert(resultado);
-// muestra "En un lugr de l Mnch de cuyo nombre no quiero cordrme..."
+*/
+
+var paisesEuropeos = ['España','Italia', 'Francia', 'Alemania'];
+var paises = [ 'Argentina', 'Brasil', 'Paraguay',  paisesEuropeos, 'Chile'];

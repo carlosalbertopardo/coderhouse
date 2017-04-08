@@ -1,0 +1,4 @@
+var numero = parseInt(prompt("Ingrese el primer numero"));
+var numero2 = parseInt(prompt("Ingrese el numero que quiere restar"));
+
+alert("El numero que Ud tiene como resultado es: " + numero+numero2);
