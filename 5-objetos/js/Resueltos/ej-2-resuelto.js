@@ -1,41 +1,43 @@
 /*  
 
 EJERCICIO N°2
-"Dado el siguiente Array, informar por pantalla todos los valores en posiciones impares."
+"Dado el objeto "Paises", 
+mostrar en una lista ordenada todas sus provincias"
 
 */
 
-var animales = ['Perro','Gato','Ratón','Loro','Aguila','Ballena','Tiburón','Oso'];
+var paises = {
+	argentina: ["Buenos Aires", "Tucumán", "Salta", "Chubut"],
+	brasil: ["Río de Janeiro", "Brasilia", 'San Pablo', 'Buzios'],
+	uruguay: ["Montevideo",'Canelones','Colonia','Rocha'],
+}
+
 
 /* 
+SOLUCIÓN -> Ay dios... Arrays adentro de objetos? Como lo recorro?
 
-SOLUCIÓN
-
-Para averiguar si un número es impar, tenemos que analizar si el "resto"
-de la division por 2 de ese número, no es 0. Para obtener esto, se utiliza el
-Operador %, el cual retorna 1 si es un número impar, o 0 si es un número par.
+Sisi, no es complicado!
+Tenemos que hacer 2 ciclos:
+- En primer lugar utilizamos el ciclo "for in" para recorrer cada una de las propiedades del objeto
+- Luego por cada propiedad, hacemos un ciclo for para recorrer el array que contiene.
 
 */
 
-// Declaramos una variable donde guardar el resto, de tipo numerica.
-var resto = 0;
 
+for (key in paises) {
 
-//Recorremos todos los elementos del array con un ciclo.
-for (var i = 0; i < animales.length; i++) {
+	console.log(key + ' tiene las siguientes localidades:'); // Por cada vuelta del ciclo mostramos la propiedad
 
-	// Obtenemos el resto de la division de la posicion por 2.
-	resto = i % 2;
-	console.log("La variable resto es " + resto);
+	var provincias = paises[key]; //Accedemos al contenido de la propiedad, lo cual sería cada array.
 
-	/* tener en cuenta que en javascript verdadero y falso pueden ser basicamente 2 valores:
-	 - "1" es igual true
-	 - "0" es igual a false
-	*/
+	provincias.sort(); // Podemos usar el metodo de los arrays llamado "sort" para ordenarlos alfabéticamente.
 
-	//En este caso, resto es o 1 o 0, si es 1, entra en la condición, que es lo mismo que que sea impar;
-	if(resto) {
-		console.log(animales[i]);
+	//Luego por caga vuelta de coclo recorremos el array con otro ciclo interno mostrando todos sus valores.
+	for (var i = 0; i < provincias.length; i++) {
+		console.log('- ' + provincias[i]);
 	}
 
 }
+
+
+//Fin, ya saben recorrer un objeto con arrays :)

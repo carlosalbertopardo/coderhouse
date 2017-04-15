@@ -1,74 +1,88 @@
 /*  
 
 EJERCICIO N°4
-"Dado un array, quitar el primer elemento del mismo."
-
+"Dado el siguiente objeto, crear sus setters y getters."
+-Crear tambíen un método que muestre por pantalla si la persona
+puede entrar en una montaña rusa (Altura > 1.5).
 */
 
-var equiposDeFutbol = ['River','Boca','Racing','Independiente','San Lorenzo','Huracán'];
-console.log(equiposDeFutbol);
+/*
 
-/* 
-SOLUCIÓN 
+SOLUCION: Que son los Getters y Setters?
 
-Debemos recordar que los arrays funcionan como una pila. Siempre que saco un elemento, 
-saco el que está en la última posicion, y siempre que agrego uno, se me agrega en la
-última posicion (Como si fuera una pila de cajas!);
-No puedo sacar el primer elemento directamente asi que necesito
-un array auxiliar para guardar el que saco.
+Los Métodos "getter" se utilizan para obtener información,
+mientras que los "setters" se utilizan para modificarla,
 
-La estrategia que vamos a seguir es:
-- Sacar todos los elementos del array y ponerlos en el array auxiliar utilizando las funciones .pop y .push
-- Al ponerlos en el array auxiliar, los elementos se me van a apilar al reves de como estaban originalement, quedando "River" como último elemento.
-- Ahora puedo sacar a "River" del array auxiliar y tirarlo a la basura.
-- Pero ahora tengo que volver a poner todos los elementos en el array original para que queden y el mismo orden que estaban.
-
+Veamos como funcionan:
+- En primer lugar, creamos nuestro objeto persona, con sus atributos nombre, apellido, edad, altura y color de pelo.
 */
 
-//Creo un array auxiliar
-var arrayAux = [];
 
-//Creo una variable para guardar el largo del array.
-var largo = equiposDeFutbol.length;
+var persona = {
+	nombre: "Bart",
+	apellido: "Simpson",
+	edad: 10,
+	altura: 1.3,
+	colorDePelo: "Rubio",
+	// GETTERS! Primero definimos sus getters, que con la propiedad "this" podemos acceder a los valores actuales de los atributos del objeto
+	getNombre: function(){
+		return this.nombre;
+	},
+	getApellido: function(){
+		return this.apellido;
+	},
+	getEdad: function(){
+		return this.edad;
+	},
+	getAltura: function(){
+		return this.altura;
+	},
+	getColorDePelo: function(){
+		return this.altura;
+	},	
+	// SETTERS! Luego creamos su setters, los cual reciben por parámetro un valor y se lo podemos asignar a cada una de los atributos del objeto
+	setNombre: function(nuevoNombre){
+		this.nombre = nuevoNombre ;
+	},
+	setApellido: function(nuevoApellido){
+		this.apellido = nuevoApellido;
+	},
+	setEdad: function(nuevaEdad){
+		this.nuevaEdad = nuevaEdad;
+	},
+	setAltura: function(nuevaAltura){
+		this.nuevaAltura = nuevaAltura;
+	},
+	setColorDePelo: function(nuevoColorDePelo){
+		this.nuevoColorDePelo = nuevoColorDePelo;
+	},	
+	//Despues podemos crear algunos métodos adicionales que nos sirven para resolver el resto del ejercicio.
+	getNombreCompleto: function(){
+		return this.nombre + ' ' + this.apellido;
+	},
+	esAlto: function () { // Hacemos una function que pregunte si nuestra altura es mayor a 1.5 y retorne sy valor de verdad.
+		if (this.altura > 1.5) {
+			return true
+		}
 
-//Creo un variable en la cual guardar el elemento que saco de cada array. Se va a ir actualizando constantemente.
-var elementoQueSaque = "";
+		return false
+	},
+	crecer: function (cantidad) {
+		this.altura = this.altura + canti
+	}
 
-// Recorro el array. 
-for (var i = 0; i < largo; i++) {
-	
-	//Saco el último elemento del array y se lo asigno a la variable "elementoQueSaque";
-	elementoQueSaque = equiposDeFutbol.pop();
-
-	//Cargo el elemento que saqué en el array auxiliar.
-	arrayAux.push(elementoQueSaque);
-
-	//Esto se repite por cada elemento del array de equipos de futbol.
 }
 
-// Ahora puedo sacar a River del array auxiliar, que es lo que se pedía en la consigna.
-arrayAux.pop();
+// Y podemos llamas a algunos de sus getters:
+console.log(persona.getNombre());
+console.log(persona.getEdad());
 
-console.log("arrayAux = " + arrayAux);
+//Podemos usar lagunos de sus setters para modificar algunas propiedades...
+persona.setNombre('Marge');
+persona.setApellido('Bouvier');
+persona.setEdad(38);
 
-//Ahora que saqué el primer elemento, tengo que volver a poner todos los equipos en el mismo orden en el que estaban originalmente.
+//Tambien mostrar por pantalla sus otros métodos
+console.log(persona.getNombreCompleto());
+console.log(persona.esAlto());
 
-//Repito lo mismo que hice antes. Paso de a uno los elementos del arrayAux, al array de equiposDeFutbol.
-
-//Ahora la variable largo es el largo del array auxiliar
-largo = arrayAux.length;
-
-// Recorro el arrayAux
-for (var i = 0; i < largo; i++) {
-
-	//Saco el último elemento del array y se lo asigno a la variable "elementoQueSaque";
-	elementoQueSaque = arrayAux.pop();
-
-	//Cargo el elemento que saqué en el array auxiliar.
-	equiposDeFutbol.push(elementoQueSaque);
-
-}
-
-console.log(equiposDeFutbol);
-
-/* Éxito! */

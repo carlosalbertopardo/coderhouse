@@ -1,31 +1,40 @@
 /*  
 
 EJERCICIO N°3
-
-Dado el siguiente array, encontrar si tiene el valor "-"
-reemplazarlo por "valor vacío".
-Al finalizar el programa, mostrar el array 
-e indicar la cantidad de veces que el valor 
-fue reemplazado.
+"Crear un objeto llamado gato, el cual tenga las propiedades id, color, raza y edad.
+Tambien deberá tener 1 metodo "Maullar" que mostrará un mensaje por consola que diga "Miauu!"
+Luego mostrar los datos por la consola un dato por linea, pero no los metodos del objeto"
 
 */
 
-var continentes = ['Asia','America','Europa','-','Oceanía','Africa','-','Antártida'];
-var contador = 0;
 
-for (var i = 0; i < continentes.length; i++) {
+/* 
+SOLUCIÓN -> Typeof again!
 
-	if ( continentes[i] === '-') {
+Creamos el objeto con sus attributos y un metodo "maullar" que mostrará un mensaje por la consola al invocarlo.
 
-		continentes[i] = 'valor vacio';	
+*/
 
-		contador = contador + 1;	
+var gato = {
+	id: 1234,
+	color: '#fff',
+	raza: 'siames',
+	edad: 2,
+	maullar: function () {
+		console.log('MIAUUUUUU!!!!');		
+	}
+}
 
+
+//Recorremos el objeto con un for in.
+for (key in gato) {
+
+	//Tener en cuenta que al hacer un typeof de una variable que apunta a una funcion, retorna un string con la palabra "function"
+	
+	if (typeof(gato[key]) !== 'function') { //Por cada vuelta, hacemos una validación para NO mostrar la información si es una funcion.
+		console.log('El atributo ' + key + ' tiene el valor ' + gato[key])
 	}
 
 }
 
-
-console.log(continentes);
-console.log('el valor fue reemplazado ' + contador + ' veces');
-
+// Miau :D
