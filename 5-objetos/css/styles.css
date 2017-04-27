@@ -48,3 +48,13 @@ h2 {
 	padding: 20px;
 	margin-bottom: 20px;
 }
+
+
+.payaso #cabeza {
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid;
+    height: 400px;
+}
+
+
