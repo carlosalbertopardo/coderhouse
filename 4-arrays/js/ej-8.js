@@ -9,4 +9,6 @@ Una vez terminada la carga de dato, analizarlos de la siguiente forma:
 están presentes.
 - En el caso de que la cantidad de alumnos ingresados sea menor a la de la totalidad de los alumnos de la clase, indicar con un alert que no están todos presentes y cuantas personas faltan.
 - En el caso de que la cantidad de alumnos ingresados sea mayor a la de la totalidad de los alumnos de la clase, indicar con un alert que hay gente nueva.
+- Eliminar el primer alumno de la lista
+
 */
