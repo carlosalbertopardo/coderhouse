@@ -1,38 +1,64 @@
 /*  
 
-EJERCICIO N°1
-"Crear un objeto llamado canción,
-el cual tenga las propiedades id, letra, autor y duración
-Luego mostrar los datos por la consola un dato por linea."
+EJERCICIO N°1 - HAZ FELIZ AL PAYASO!!!
 
 */
 
 
-/* 
-SOLUCIÓN -> A crear objetos!!
+//Demosle un poco de color a las mejillas!
 
-En primer lugar creamos el objeto. Hay diversas formas de crear un objeto:
-En este caso usaremos la forma literal, la cual es usando los { }
-Creamos los objetos y asignamos nuevas propiedades, las cuales pueden ser atributos ( Valores) o metodos (functiones)*/
+var mejillas = document.getElementsByClassName('mejilla');
 
-var cancion = {
-	id: 123,
-	letra: 'chuchuhua chuchuhua',
-	autor: 'pinon fijo',
-	duración: 22,
-	setLetra: function (nuevaLetra) { //Esto es un metodo del objeto.
-		this.letra = nuevaLetra;
-	}
+for (var i = 0; i < mejillas.length; i++) {
+	
+	mejillas[i].style.backgroundColor = "red";
+
 }
 
-//Podemos invocar al metodo 
-cancion.setLetra('choique el nandu');
+// Pipi no tiene Nariz! Creemosle una!
+
+// - Agregar nariz dic con id nariz, en la parte-media. create element y append
+var nariz = document.createElement("div"); //Creamos un div que va a ser nuestra nariz
+nariz.id = "nariz"; //Le asignamos el id nariz para que tome los etilos del CSS
+var parteMedia = document.getElementById("parte-media"); //Buscamos el lugar donde poner la nariz
+parteMedia.appendChild(nariz); //Apendeamos la nariz al DOM
 
 
-/*Para recorrer los valores de un objeto no podemos usar el coclo "for" que usamos para los arrays, ya que los objetos no tienen
-una propiedad ".length". Para recorrerlos usamos el ciclo llamado "for in" donde la "key" es el nombre de la propiedad y la segunda variable es su valor.*/
+// Pero que es esa cara triste? Agregemosle una sonrisa a esa boca.
 
-for (key in cancion) {
-	console.log('el metodo ' + key + ' tiene el valor ' + cancion[key])
+var boca = document.getElementById("boca");
+boca.className = "risa";
+
+
+
+// Esas cejas quedan un poco raras. Borremoslas!
+var cejas = document.getElementsByTagName('span');
+
+for (var i = 0; i < 2; i++) {
+	cejas[0].parentNode.removeChild(cejas[0]);
 }
 
+
+// Hay que maquillar a pipi. Pintemosle la cara!
+var cabeza = document.getElementById('cabeza');
+cabeza.style.backgroundColor = "#fdddca";
+
+// Un payaso no es nada sin su pelo. Agreguemole un afro colorido!
+
+var cueroCabelludo = document.getElementById("pelo");
+var pelo = cueroCabelludo.children[0];
+pelo.src = "img/pelo-payaso.png";
+
+
+// Solo nos falta poner a pipi en su lugar de trabajo.
+var fondo = document.getElementsByTagName('main');
+fondo[0].style.backgroundImage = "url('img/curtain.jpg')";
+
+// Por ultimo! Pongamos un cartel del show de pipi
+
+var cartel = document.getElementById("cartel");
+cartel.innerHTML = "¡pipi está feliz!";
+cartel.style.fontSize = "40px";
+cartel.style.color = "#fff";
+cartel.style.textTransform = "uppercase";
+cartel.style.backgroundColor = "#FFB6C1";

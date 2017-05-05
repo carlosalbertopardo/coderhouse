@@ -5,10 +5,10 @@ body {
 }
 
 h1 {
-	color: burlywood;
+	color: #ac341c;
 	margin-bottom: 0px;
 	margin-top: 0;
-	font-size: 40px;
+	font-size: 80px;
 	text-align: center;
 	line-height: 70px;
 }
@@ -17,11 +17,14 @@ h2 {
 	text-transform: uppercase;
 }
 
+p.description {
+    display: none;
+}
+
 .subtitle {
 	font-size: 30px;
 	margin-top: 0;
 	text-align: center;
-    color: burlywood;
 }
 
 .align-center {
@@ -65,7 +68,6 @@ h2 {
     height: 400px;
     position: relative;
     margin: 0 auto;
-    background-color: #ccc;
 }
 
 .payaso .ojo {
@@ -75,7 +77,6 @@ h2 {
     height: 100px;	
     position: absolute;
     top: 80px;
-    background-color: #fff;
 }
 
 #ojo-izquierdo {
@@ -97,11 +98,11 @@ h2 {
 }
 
 .ceja.izquierda {
-    transform: rotate(-20deg);
+
 }
 
 .ceja.derecha {
-    transform: rotate(20deg);
+
 }
 
 .pupila {
@@ -113,20 +114,20 @@ h2 {
     margin-top: 30px;
 }
 
-.mejilla {
+.cachete {
 	width: 85px;
 	height: 85px;
 	border-radius: 50%;
-	background-color: #2d2d2d;
+	background-color: red;
 	position: absolute;	
 	top: 200px;
 }
 	
-.mejilla.izquierda {
+.cachete.izquierdo {
 	left: 30px
 }
 
-.mejilla.derecha {
+.cachete.derecho {
 	right: 30px
 }
 
@@ -136,17 +137,17 @@ h2 {
     position: absolute;
     bottom: 30px;
     border: 11px solid red;
+    height: 105px;
     margin: 0 auto;
     left: 0;
     right: 0;
-    border-bottom-right-radius: 90px;
-    border-bottom-left-radius: 88px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 17px;    
 }
 
 .risa {
-    height: 105px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 88px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 17px;
 }
 
 #nariz {
@@ -170,13 +171,4 @@ h2 {
     margin: 0 auto;
     width: 491px;
     top: -123px;
-}
-
-#cartel {
-    border: 3px dotted red;
-    widows: 90%;
-    min-height: 15px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }

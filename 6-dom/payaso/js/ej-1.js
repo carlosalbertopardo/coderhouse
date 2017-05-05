@@ -1,53 +1,21 @@
 /*  
 
-EJERCICIO N°1
-HAZ FELIZ AL PAYASO!!!
+EJERCICIO N°1 - HAZ FELIZ AL PAYASO!!!
 
 */
 
-// Paso1 - Demosle un poco de color a las mejillas!
-
-var mejillas = document.getElementsByClassName('mejilla');
-
-for (var i = 0; i < mejillas.length; i++) {
-	
-	mejillas[i].style.backgroundColor = "red";
-
-}
-
-// Paso 2 - Pero que es esa cara triste? Agregemosle una sonrisa a esa boca.
-
-var boca = document.getElementById("boca");
-boca.className = "risa";
-
+//Demosle un poco de color a las mejillas!
 
 // Pipi no tiene Nariz! Creemosle una!
 
-// - Agregar nariz dic con id nariz, en la parte-media. create element y append
-var nariz = document.createElement("div"); //Creamos un div que va a ser nuestra nariz
-nariz.id = "nariz"; //Le asignamos el id nariz para que tome los etilos del CSS
-var parteMedia = document.getElementById("parte-media"); //Buscamos el lugar donde poner la nariz
-parteMedia.appendChild(nariz); //Apendeamos la nariz al DOM
-
-
-
-
+// Pero que es esa cara triste? Agregemosle una sonrisa a esa boca.
 
 // Esas cejas quedan un poco raras. Borremoslas!
 
-var cejas = document.getElementsByTagName('span');
+// Hay que maquillar a pipi. Pintemosle la cara!
 
-for (var i = 0; i < 2; i++) {
-	cejas[0].parentNode.removeChild(cejas[0]);
-}
+// Un payaso no es nada sin su pelo. Agreguemole un afro colorido!
 
+// Solo nos falta poner a pipi en su lugar de trabajo.
 
-/*
-
-- Agregar pelo (Url al tag de imagen)
-
-- agregar fondo del body src del body
-
-*/
-
-
+// Por ultimo! Pongamos un cartel del show de pipi
