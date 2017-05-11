@@ -1,0 +1,174 @@
+/* Base styles */
+
+body {
+	font-family: arial;
+}
+
+h1 {
+	color: #ac341c;
+	margin-bottom: 0px;
+	margin-top: 0;
+	font-size: 80px;
+	text-align: center;
+	line-height: 70px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+p.description {
+    display: none;
+}
+
+.subtitle {
+	font-size: 30px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.center-auto {
+	margin: 0 auto; /* tambien se puede hacer "margin-left: auto;margin-right:auto;" y lograr lo mismo */ 
+}
+
+.centered-block {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.block {
+	display: block;
+}
+
+.example {
+	background-color: #cccccc;
+	border: 1px solid #aaa;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+/* Payaso */
+
+.payaso {
+	margin-top: 120px;
+	position: relative;
+
+}
+
+.payaso #cabeza {
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.payaso .ojo {
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid;
+    height: 100px;	
+    position: absolute;
+    top: 80px;
+}
+
+#ojo-izquierdo {
+	left: 50px;
+}
+
+#ojo-derecho {
+	right: 50px;
+}
+
+
+.ceja {
+    position: absolute;
+    top: -25px;
+    background-color: #000;
+    height: 10px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.ceja.izquierda {
+
+}
+
+.ceja.derecha {
+
+}
+
+.pupila {
+    width: 10px;
+    border-radius: 50%;
+    border: 10px solid;
+    height: 10px;	
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.cachete {
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;	
+	top: 200px;
+}
+	
+.cachete.izquierdo {
+	left: 30px
+}
+
+.cachete.derecho {
+	right: 30px
+}
+
+
+#boca {
+    width: 135px;
+    position: absolute;
+    bottom: 30px;
+    border: 11px solid red;
+    height: 105px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.risa {
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 88px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 17px;
+}
+
+#nariz {
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 145px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border: 5px solid #000;
+}
+
+#pelo img {
+    position: absolute;
+    z-index: 10;
+    left: -6px;
+    right: 0;
+    margin: 0 auto;
+    width: 491px;
+    top: -123px;
+}
