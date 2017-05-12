@@ -2,7 +2,7 @@
 
 EJERCICIO N°3
 
-	Crear una pagina web en la cual el usuario aprete cualquier
-	letra del teclado y aparezca en la pantalla.
+Armar un accordión utilizando jQuery que posea 4 secciones: Pirmavera, Verano, Otoño e invierno
 
 */
+

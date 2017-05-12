@@ -50,3 +50,32 @@ var peliculas = [
 	}
 
 ];
+
+
+function ordernarArray( arrayAOrdernar , forma, prop) {
+
+	arrayAOrdernar.sort(function (a,b) {
+
+		if (forma === 'asc') {
+			if(a[prop] > b[prop]) {
+				return 1;  // si retorna 1, a va a ir primero que b
+			} else {
+				return -1; // si retorna -1, b va a ir primero que a
+			}
+		} else {
+			if(a[prop] > b[prop]) {
+				return -1;
+			} else {
+				return 1;
+			}
+		}
+
+	})
+
+}
+
+ordernarArray(peliculas,'desc', 'id');
+
+
+
+

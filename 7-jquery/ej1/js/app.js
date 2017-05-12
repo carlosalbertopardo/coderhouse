@@ -1,37 +1,27 @@
 /*  
 
-EJERCICIO N°1 - Anclas con efectos:
-" Hacer anclas con efectos a todas las secciones:"
+EJERCICIO N°1
+
+Jquery Baby!!
+Empecemos a reconocer los selectores de jQuery con un pequeño ejercicio:
+- Importar la libreria de jquery
+- Agregar la clase "pod" a todos los li
+- Agregar la clase Simpson al h1 y a los h2 de cada pod
+- Agregar a Maggie al final de la lista (append,prepend, after, before  )
+
+	<li class="pod">
+		<h2>Maggie</h2>
+		<img src="img/maggie.png">
+		<p class="description">
+			Margaret Evelyn "Maggie" Simpson es un personaje ficticio de la serie de televisión de dibujos animados Los Simpson. Es la tercera hija del matrimonio protagonista, Homer y Marge Simpson, y la más joven de ellos. Sus hermanos mayores son Bart y Lisa Simpson. Siempre se la ve succionando un chupete y cuando camina, suele tropezar con el mono y cae de frente.
+		</p>							
+	</li>
 
 
-- Crear un ancla que vaya al footer
-- Crear un ancla que vaya desde el footer hasta la parte de arriba de la pagina.
-- Crear anclas customizadas que vayan a distintas secciones
+- Mover a bart a la primera posicion de la lista
+- Ocultar los personajes cuando hacemos click en ellos.
 
-
-- Utilizar los efectos animate y scrollTo.
 
 */
-
-
-console.log($('.go-to-footer'));
-
-$('.go-to-footer').click(function (event) {
-
-	console.log(event);
-
-	console.log('in!!!');
-
-	$('html, body').animate(
-	{
-		scrollTop: $('body').height() - $(window).height()
-
-	},
-	'slow');
-
-
-
-});
-
 
 
