@@ -26,15 +26,13 @@ h1 {
 
 
 
-
-/*
 .accordion {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding-top: 5px;
 }
 
-.accordion .section {
+.accordion section {
     padding: 5px;
     margin: 0;
     padding-bottom: 5px;

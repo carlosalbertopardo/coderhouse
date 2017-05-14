@@ -8,31 +8,29 @@ Luego mostrar los datos por la consola un dato por linea."
 */
 
 
-/* 
-SOLUCIÓN -> A crear objetos!!
+console.log($('.go-to-footer'));
 
-En primer lugar creamos el objeto. Hay diversas formas de crear un objeto:
-En este caso usaremos la forma literal, la cual es usando los { }
-Creamos los objetos y asignamos nuevas propiedades, las cuales pueden ser atributos ( Valores) o metodos (functiones)*/
+$('.go-to-footer').click(function (event) {
 
-var cancion = {
-	id: 123,
-	letra: 'chuchuhua chuchuhua',
-	autor: 'pinon fijo',
-	duración: 22,
-	setLetra: function (nuevaLetra) { //Esto es un metodo del objeto.
-		this.letra = nuevaLetra;
-	}
-}
+	event.preventDefault();
 
-//Podemos invocar al metodo 
-cancion.setLetra('choique el nandu');
+	console.log('click');
+
+	/*
+	console.log(event);
+
+	console.log('in!!!');
+
+	$('html, body').animate(
+	{
+		scrollTop: $('body').height() - $(window).height()
+
+	},
+	'slow');*/
 
 
-/*Para recorrer los valores de un objeto no podemos usar el coclo "for" que usamos para los arrays, ya que los objetos no tienen
-una propiedad ".length". Para recorrerlos usamos el ciclo llamado "for in" donde la "key" es el nombre de la propiedad y la segunda variable es su valor.*/
 
-for (key in cancion) {
-	console.log('el metodo ' + key + ' tiene el valor ' + cancion[key])
-}
+});
+
+
 

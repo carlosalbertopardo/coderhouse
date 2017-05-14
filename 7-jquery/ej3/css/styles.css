@@ -24,41 +24,32 @@ h1 {
 	text-align: center;
 }
 
-
-
-
-/*
-.accordion {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding-top: 5px;
-}
-
-.accordion .section {
-    padding: 5px;
+.tabs ul {
     margin: 0;
-    padding-bottom: 5px;
-    padding-top: 0;
+    padding: 0
 }
 
-.accordion .accordion-header {
+.tab {
+    display: inline-block;
+    border: 1px solid red;
     padding: 10px;
-    background-color: #dddddd;
-    border-radius: 5px;
+    font-size: 25px;
+    border-radius: 5px 5px 0 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
     cursor: pointer;
 }
 
-.accordion h2 {
-    font-size: 16px;
-    margin: 0;
+
+.tab.active {
+    background-color: navy;
 }
 
-.accordion .active .accordion-header {
-    background-color: #473f7f;
-    color: #fff;
-    border-radius: 5px;
-}
+.content-container {
+    border: 1px solid ;
+    padding: 40px;
+    font-size:20px; 
 
-.accordion .accordion-content {
-    padding:10px;
 }

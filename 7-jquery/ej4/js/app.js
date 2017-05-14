@@ -14,24 +14,33 @@ EJERCICIO N°1 - Anclas con efectos:
 */
 
 
-console.log($('.go-to-footer'));
 
-$('.go-to-footer').click(function (event) {
+$('#to-top').click(function(event) {
 
-	console.log(event);
+	$('body').animate({
+		scrollTop: 0 
+	}, 2000, function () {
+  		console.log('animation completed!!!!');
+  	});
 
-	console.log('in!!!');
-
-	$('html, body').animate(
-	{
-		scrollTop: $('body').height() - $(window).height()
-
-	},
-	'slow');
+})
 
 
+$('.anchor').click(function(event) {
 
-});
 
+	event.preventDefault();
+
+	var sectionName = $(this).attr('href');
+	// position vs offset
+
+	var newPos = $('#'+sectionName).position().top;
+
+	$('body').animate({
+		scrollTop: newPos
+	}, 2000)
+
+
+})
 
 

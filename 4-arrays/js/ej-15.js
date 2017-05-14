@@ -50,3 +50,34 @@ var peliculas = [
 	}
 
 ];
+
+
+function ordenar(arrayAOrdenar, modo, prop){
+
+	arrayAOrdenar.sort(function(a,b){
+
+		if (modo === 'asc') {
+
+			if(a[prop] > b[prop]) {
+				return 1 // Si retorna 1 cambian de lugar
+			} else {
+				return -1 // Si retorna -1 no cambian de lugar
+			}
+
+		} else {
+
+			if(a[prop] > b[prop]) {
+				return -1
+			} else {
+				return 1
+			}
+
+		}
+
+	});
+
+}
+
+ordenar(peliculas, 'asdasdasdasd', 'id');
+
+console.log(peliculas);

@@ -172,3 +172,17 @@ p.description {
     width: 491px;
     top: -123px;
 }
+
+#meme {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 200px;
+
+}
+
+#letter {
+    font-size: 200px;
+    text-align: center;
+    color: #000;
+}

@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Otros ejemplos</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="./bootstrap.min.css">		
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">		
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
@@ -15,28 +15,23 @@
 			</header>
 			<section>
 
-				<form id="imdb-form" class="col-xs-6">
-					<div class="form-group">
-						<label>Nombre</label>
-						<input id="nombre" type="text" name="" class="form-control">
-						<p class="description">Por favor ingrese su nombre</p>
-					</div>
-					<div class="form-group">
-						<label>apellido</label>
-						<input id="apellido" type="text" name="" class="form-control">
-						<p class="description">Por favor ingrese su apellido</p>
-					</div>
-					<div class="form-group">
-						<label>sexo</label>
-						<input id="m" type="radio" name="sexo">
-						<input id="f" type="radio" name="sexo">
-					</div>
-					<div class="form-group">
-						<label>Edad</label>
-						<input id="edad" type="number" name="" class="form-control">
-					</div>
-					<button class="btn btn-primary">saludar</button>
-				</form>
+				<div class='container'>
+					<form id="imdb-form" class="col-xs-6">
+						<div class="form-group">
+							<label>Titulo</label>
+							<input id="titulo" type="text" name="" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>descripcion</label>
+							<input id="descripcion" type="text" name="" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>imagen de la pelicula</label>
+							<input id="imagen" type="text" name="" class="form-control">
+						</div>
+						<button id='agregar' class="btn btn-primary">Agregar peli</button>
+					</form>
+				</div>
 			</section>
 
 
