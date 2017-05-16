@@ -10,7 +10,6 @@ Debe recibir:
 
 */
 
-
 var peliculas = [
 	{
 		id:4,
@@ -51,13 +50,15 @@ var peliculas = [
 
 ];
 
+/* En este caso el sort se implementa de la misma forma que un array, 
+pero debemos tener en cuenta que en cada posición del array hay un objeto.*/
 
 function ordernarArray( arrayAOrdernar , forma, prop) {
 
 	arrayAOrdernar.sort(function (a,b) {
 
 		if (forma === 'asc') {
-			if(a[prop] > b[prop]) {
+			if(a[prop] > b[prop]) { // Para comparar utilizaremos la "propiedad" de cada objeto.
 				return 1;  // si retorna 1, a va a ir primero que b
 			} else {
 				return -1; // si retorna -1, b va a ir primero que a
@@ -74,8 +75,10 @@ function ordernarArray( arrayAOrdernar , forma, prop) {
 
 }
 
+//Ordernamos el array descendentemente y mostramos por consola.
 ordernarArray(peliculas,'desc', 'id');
+console.log(peliculas);
 
-
-
-
+//Ordernamos el array ascendentemente y mostramos por consola.
+ordernarArray(peliculas,'asc', 'id');
+console.log(peliculas);

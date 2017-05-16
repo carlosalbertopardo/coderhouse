@@ -9,13 +9,37 @@ Mejorar el modulo IMDB
 
 */
 
+/* 
+RESOLUCION:
 
+Nuevamente tenemos nuestro módulo IMDB
+- En este caso, nuestro modulo solo contará con un array privado llamado "peliculas".
+- En cada posición de array, a su vez, habra un objeto "Pelicula".
+- Lo que debemos hacer en este ejercicio es recorrer el array y por cada una de la películas,
+ir appendeando en el DOM la información.
 
-var IMDB =  (function () {
+Vamos!
 
-	var peliculas = [
+En primer lugar, debemos crear nuestro modulo IMDB.
+En el patrón de diseño modular, se llama "Modulo" a una variable que alberga un objeto con cirta funcionalidad.
+Para crear un modulo debemos:
 
-		{
+- Crear una variable (En este caso llamada IMDB).
+- Asignar a la variable una IIFE (Inmediately Invoked function Expresion).
+- Nuestra IIFE creada, va a retornar un objeto que tiene varios todos los métodos públicos a los cuales podremos llamar despues desde la variable IMDB.
+- En este caso solo pondremos un método público llamado render que recorrerá el array privado de pelis y adjuntará los elementos al DOM.
+
+*/
+
+//Creamos nuestro módulo
+var IMDB = (function() {
+
+	/*Este es nuestro array de pelis. Es "privado", ya que no puedo acceder a él directamente desde el scope global. 
+	Si quiziera acceder a él desde afuera, tendría que crear un método público (En el objeto que retorna la IFFE).
+	Un ejemplo es el método "mostrarPelis" que creamos abajo*/
+	var peliculas = [ 
+		//Cada objeto dentro del array es una peli :)
+		{ 
 			id:1,
 			titulo: "Volver al Futuro",
 			descripcion: "El adolescente Marty McFly es amigo de Doc, un científico al que todos toman por loco. Cuando Doc crea una máquina para viajar en el tiempo, un error fortuito hace que Marty llegue a 1955, año en el que sus futuros padres aún no se habían conocido. Después de impedir su primer encuentro, deberá conseguir que se conozcan y se casen; de lo contrario, su existencia no sería posible. ",
@@ -56,50 +80,49 @@ var IMDB =  (function () {
 
 
 	return {
+		//Aquí comienzan nuestro métodos publicos a los que podremos llamar desde "IMDB." : Ejemplo IMDB.mostrarPelis().
+		mostrarPelis: function () {
+			console.log(peliculas);
+		},
+		render: function () { //Creamos nuestro metodo público render.
 
-		render: function () {
-
+			//Empezamos a recorrer nuestro array "peliculas" al podemos acceder ya que estamos dentro del módulo.
 			for (var i = 0; i < peliculas.length; i++) {
 			
-				//Por cada pelicula genero un grupo
-
+				//Creamos un contenedor para cada peli
 				var container = document.createElement('div');
-				container.className = 'pelicula'
+				container.className = 'pelicula';
 
-				//Crear titulo
+				//Creamos el titulo
 				var titulo = document.createElement('h2');
-				var textoTitulo =  document.createTextNode(peliculas[i].titulo);
-				titulo.appendChild(textoTitulo);
+				var textoDelTitulo = document.createTextNode(peliculas[i].titulo);					
+				titulo.append(textoDelTitulo);
 
-				//Crear decripcion
+				//Creamos el descripcion;
 				var descripcion = document.createElement('p');
-				var textoDescripcion =  document.createTextNode(peliculas[i].descripcion);
-				descripcion.appendChild(textoDescripcion);
+				var textoDeLaDescripcion = document.createTextNode(peliculas[i].descripcion);					
+				descripcion.append(textoDeLaDescripcion);
 
-				//Crear imagen
+				//Creamos la imagen
 				var imagen = document.createElement('img');
 				imagen.src = 'img/' + peliculas[i].imagen;
 
+				//Ponemos el título, la imagen y la descripción dentro del "div" contenedor que creamos.
 				container.append(titulo);
-				container.append(imagen);
+				container.append(imagen);				
 				container.append(descripcion);
-		
-				document.body.append(container);
+
+				//Adjuntamos el div contenedor que tiene todos los datos de nuestra peli a el body.
+				document.body.append(container)
 
 			}
-
 
 		}
 
 	}
 
-
 })()
 
 
+//Finalmente renderizamos las pelis llamando a el método público del modulo IMDB!
 IMDB.render();
-
-
-
-
-

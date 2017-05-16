@@ -8,34 +8,39 @@ EJERCICIO N°3
 
 */
 
+/*RESOLUCION:
+En este caso utilizaremos los eventos de teclado para ver como es su funcionamiento.
+*/
 
+//Primero encapsulamos todo nuestro codigo en una IIFE (Por buena práctica)
 (function () {
 
-	var contador = 0;
-
-	document.body.addEventListener('keyup', detectarTecla);
-
+	//Comenzamos declarando nuestra función detectarTecla, la cual recibira como argumento el evento del teclado.
 	function detectarTecla (event) {
 
+		//Preguntamos si el código de la tecla pertenece a alguna letra o a algún número.
 	 	if (event.keyCode <= 90 && event.keyCode >= 48 || event.keyCode >= 96 && event.keyCode <= 105) {
 
-			contador++;
+			contador++; //Incrementamos en 1 la cantidad de veces que el usuario apretó una tecla.
 
-
+			//Cambiamos el contenido del html del elemento 'letter', que ya está en el DOM
 	 		var letra = document.getElementById('letter');
 	 		letra.innerHTML = event.key;
 
-
+	 		//Obtenemos el elemento de la imagen que iremos cambiando.
 	 		var imagen = document.getElementById('meme');
 
-
+	 		//Pregunto si la tecla que apreto el usuario es la Z
 	 		if (event.keyCode === 90) {
-	 			imagen.src = 'img/happy.png'
 	 			
+	 			//Si es así, cambio la imagen por la del zorro.
+	 			imagen.src = 'img/happy.png'
+	 			//Y con el método "removeEventListener" saco la funcionalidad del teclado
 	 			document.body.removeEventListener('keyup', detectarTecla);
 
 	 		} else {
 
+	 			//Si la tecla que apreté no es la "Z", voy incrementando el contador y cambiando las imagenes dependiendo de su valor.
 		 		if(contador >= 5 && contador < 10) {
 		 			imagen.src = 'img/kidding.png'
 		 		} else if(contador >= 10 && contador < 15) {
@@ -46,12 +51,17 @@ EJERCICIO N°3
 
 	 		}
 
-			console.log(event.key);
-			console.log(event.keyCode);
-
 		}
 
 
-	}	
+	}
+
+	//Inicializamos nuestro contador
+	var contador = 0;
+
+	/*Agregamos el eventListener al body, de esta manera siempre que el usuario aprete una tecla ('keyup'),
+	se ejecutará la función detectarTecla*/
+	document.body.addEventListener('keyup', detectarTecla);
+	
 })()
 

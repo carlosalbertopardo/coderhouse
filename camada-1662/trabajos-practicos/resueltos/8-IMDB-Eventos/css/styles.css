@@ -48,3 +48,8 @@ h2 {
 	padding: 20px;
 	margin-bottom: 20px;
 }
+
+.form-container {
+	width: 100%;
+	min-height: 420px;
+}

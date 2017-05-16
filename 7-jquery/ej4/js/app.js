@@ -1,46 +1,12 @@
 /*  
 
 EJERCICIO N°1 - Anclas con efectos:
-" Hacer anclas con efectos a todas las secciones:"
-
+"Hacer anclas con efectos a todas las secciones:"
 
 - Crear un ancla que vaya al footer
 - Crear un ancla que vaya desde el footer hasta la parte de arriba de la pagina.
 - Crear anclas customizadas que vayan a distintas secciones
 
-
 - Utilizar los efectos animate y scrollTo.
 
 */
-
-
-
-$('#to-top').click(function(event) {
-
-	$('body').animate({
-		scrollTop: 0 
-	}, 2000, function () {
-  		console.log('animation completed!!!!');
-  	});
-
-})
-
-
-$('.anchor').click(function(event) {
-
-
-	event.preventDefault();
-
-	var sectionName = $(this).attr('href');
-	// position vs offset
-
-	var newPos = $('#'+sectionName).position().top;
-
-	$('body').animate({
-		scrollTop: newPos
-	}, 2000)
-
-
-})
-
-

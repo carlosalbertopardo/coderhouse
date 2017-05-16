@@ -1,36 +1,49 @@
 /*  
 
-EJERCICIO N°1
-"Crear un objeto llamado canción,
-el cual tenga las propiedades id, letra, autor y duración
-Luego mostrar los datos por la consola un dato por linea."
+EJERCICIO N°1 - Anclas con efectos:
+"Hacer anclas con efectos a todas las secciones:"
+
+- Crear un ancla que vaya al footer
+- Crear un ancla que vaya desde el footer hasta la parte de arriba de la pagina.
+- Crear anclas customizadas que vayan a distintas secciones
+
+
+- Utilizar los efectos animate y scrollTo.
 
 */
 
+/*RESOLUCION
+	En este caso utilizaremos el método Animate de jQuery para hacer funcionar las anclas de jQuery.
+*/
 
-console.log($('.go-to-footer'));
+(function () {
 
-$('.go-to-footer').click(function (event) {
+	//En el primer caso, hacemos funcionar el ancla del footer
+	$('#to-top').click(function(event) { //Cuando haga click en el elemento que tiene el id "to-top"...
 
-	event.preventDefault();
+		$('body').animate({  //Uso el metodo animate en el body...
+			scrollTop: 0  // para mover el scroll del body hasta la posicion 0 (Arriba de todo).
+		}, 2000, function () { //La animación va a durar 2 segundos (2s = 2000 milisegundos)
+			console.log('animation completed!!!!');  //Y cuando termine la animación voy a ejecutar la funcion que me avise por consola.
+		});
 
-	console.log('click');
+	})
 
-	/*
-	console.log(event);
+	//Ahora, un poco mas complicado
+	$('.anchor').click(function(event) { //Cuando haga click en CUALQUIER elemento que tenga la clase "anchor"
 
-	console.log('in!!!');
+		event.preventDefault(); // Evito el comportamiento por default de los links
 
-	$('html, body').animate(
-	{
-		scrollTop: $('body').height() - $(window).height()
+		var sectionName = $(this).attr('href'); //Tomo la sección a donde quiero ir con el href
 
-	},
-	'slow');*/
+		var newPos = $('#'+sectionName).position().top; //Averiguo la posicion en donde está ese elemento
 
+		$('body').animate({
+			scrollTop: newPos //Y voy hasta ahi :)
+		}, 2000)
 
+	})
 
-});
-
+})()
 
 

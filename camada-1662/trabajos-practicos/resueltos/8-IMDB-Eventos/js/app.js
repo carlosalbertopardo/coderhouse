@@ -2,126 +2,188 @@
 
 # Mejorar DE NUEVO el modulo IMDB
 ​
-- Crear un formulario que tenga los 
-campos titulo, descripcion y uno donde poder ingresar un link a la imagen.
-- Este formulario tendra 
-que tener un boton ("agregar"), el cual Debera permitir al modulo IMDB agregar una pelicula.
-- Este formulario 
-debera tener tambien un boton ("mostrar todos"), 
-el cual Debera permitir al modulo IMDB mostrar todas las peliculas
-- Incluir otros botones para 
-poder ordenar por AZ ZA e ID y mostrarlos
-- En caso de encontrarse 
-peliculas persistidas tendran que volver a renderizarse
+- Crear un formulario que tenga los campos titulo, descripcion y uno donde poder ingresar un link a la imagen.
+- Este formulario tendra que tener un boton ("agregar"), el cual Debera permitir al modulo IMDB agregar una pelicula.
+- Este formulario debera tener tambien un boton ("mostrar todos"), el cual Debera permitir al modulo IMDB mostrar todas las peliculas
+- Incluir otros botones para poder ordenar por AZ ZA e ID y mostrarlos
+- En caso de encontrarse peliculas persistidas tendran que volver a renderizarse
 
 */
 
 
+/* 
+RESOLUCION:
+En este caso para variar un poco no seguiremos el paradigma modular, pero si encapsularemos la funcionalidad en una
+IFFE. De esta manera se evitan las variables globale. Debetos recordar que tener una IIFE es como declarar una funcion
+y ejecutarla al mismo tiempo. Es por eso que no hace falta invocarla por separado.
+*/
+
 (function () {
 
-	var peliculas = [
+	var peliculas = [ //Nuevamente tenemos nuestro array de peliculas.
 
-	{
-		id:1,
-		titulo: "Volver al Futuro",
-		descripcion: "El adolescente Marty McFly es amigo de Doc, un científico al que todos toman por loco. Cuando Doc crea una máquina para viajar en el tiempo, un error fortuito hace que Marty llegue a 1955, año en el que sus futuros padres aún no se habían conocido. Después de impedir su primer encuentro, deberá conseguir que se conozcan y se casen; de lo contrario, su existencia no sería posible. ",
-		imagen: "back-to-the-future.jpg"
-	},
-	{
-		id:2,
-		titulo: "El Señor de los Anillos",
-		descripcion: "El Señor de los Anillos: la Comunidad del Anillo (título original en inglés: The Lord of the Rings: The Fellowship of the Ring) es la primera película de la trilogía cinematográfica de El Señor de los Anillos, basada en el primer tomo de la novela homónima del escritor británico de literatura fantástica J. R. R. Tolkien; adaptado al cine por el neozelandés Peter Jackson. Esta película está incluida en el puesto número 2 de la lista de cine fantástico del «AFI's 10 Top 10».",
-		imagen: "the-lord-of-the-rings.jpg"
-	},
-	{
-		id:3,
-		titulo: "Duro de Matar",
-		descripcion: "John McClane (Bruce Willis) es un policía de Nueva York que visita a su esposa en Los Ángeles. Ella se encuentra en un fiesta navideña de su empresa con numerosos invitados, y McClane va a verla allí. Mientras él se está cambiando de ropa, llega al edificio un grupo de terroristas que toman a los invitados como rehenes. McClane es la única persona cuya presencia los terroristas desconocen. Comienza una lucha a muerte entre los terroristas y el solitario policía.",
-		imagen: "die-hard.jpg"
-	},
-	{
-		id:4,
-		titulo: "Commando",
-		descripcion: "John Matrix, (Arnold Schwarzenegger), es un ex-coronel de una unidad de Fuerzas Especiales del Ejército de los Estados Unidos, padre soltero, que se ha retirado a vivir en una cabaña en la montaña junto a su hija Jenny (Alyssa Milano). Sin saberlo él, sus ex-compañeros en el ejército están siendo asesinados uno a uno, primero Lawson, luego Forrestal y por último el capitán Bennet (Vernon Wells). Su amigo, el general Franklin Kirby (James Olson) pone a Matrix bajo el cuidado de dos guardias armados, pero los bandidos logran matarlos y secuestrar a Jenny. Matrix descubre que Bennet, que había caído en desgracia y estaba dado por muerto, no lo está en realidad sino que es el jefe de los secuestradores y que ha secuestrado a Jenny para que Matrix colabore en un asesinato a favor del señor de la guerra y ex-dictador de Val Verde, Arius (Dan Hedaya). Arius había sido depuesto en su día por Matrix y está ahora reuniendo fuerzas para dar un golpe de Estado y recuperar el poder. Matrix se ve obligado a matar nuevamente para salvar la vida de Jenny",
-		imagen: "back-to-the-future.jpg"
-	},
-	{
-		id:5,
-		titulo: "Mentiroso Mentiroso",
-		descripcion: "Fletcher Reede es un abogado ambicioso y sin escrúpulos, que utiliza la mentira como un medio habitual de trabajo. Su hijo de cinco años, harto de promesas incumplidas, pide un deseo el día de su cumpleaños, que su padre no pueda mentir durante veinticuatro horas. ",
-		imagen: "mentiroso-mentiroso.jpg"
-	},				
-	{
-		id:6,
-		titulo: "9 reinas",
-		descripcion: "Nueve reinas es una película argentina policial de 2000 escrita y dirigida por Fabián Bielinsky y protagonizada por Ricardo Darín, Gastón Pauls y Leticia Brédice. La película cuenta la historia de dos estafadores que se conocen por casualidad y deciden unirse para trabajar juntos.",
-		imagen: "9-reinas.jpg"
-	}
+		{
+			id:1,
+			titulo: "Volver al Futuro",
+			descripcion: "El adolescente Marty McFly es amigo de Doc, un científico al que todos toman por loco. Cuando Doc crea una máquina para viajar en el tiempo, un error fortuito hace que Marty llegue a 1955, año en el que sus futuros padres aún no se habían conocido. Después de impedir su primer encuentro, deberá conseguir que se conozcan y se casen; de lo contrario, su existencia no sería posible. ",
+			imagen: "back-to-the-future.jpg"
+		},
+		{
+			id:2,
+			titulo: "El Señor de los Anillos",
+			descripcion: "El Señor de los Anillos: la Comunidad del Anillo (título original en inglés: The Lord of the Rings: The Fellowship of the Ring) es la primera película de la trilogía cinematográfica de El Señor de los Anillos, basada en el primer tomo de la novela homónima del escritor británico de literatura fantástica J. R. R. Tolkien; adaptado al cine por el neozelandés Peter Jackson. Esta película está incluida en el puesto número 2 de la lista de cine fantástico del «AFI's 10 Top 10».",
+			imagen: "the-lord-of-the-rings.jpg"
+		},
+		{
+			id:3,
+			titulo: "Duro de Matar",
+			descripcion: "John McClane (Bruce Willis) es un policía de Nueva York que visita a su esposa en Los Ángeles. Ella se encuentra en un fiesta navideña de su empresa con numerosos invitados, y McClane va a verla allí. Mientras él se está cambiando de ropa, llega al edificio un grupo de terroristas que toman a los invitados como rehenes. McClane es la única persona cuya presencia los terroristas desconocen. Comienza una lucha a muerte entre los terroristas y el solitario policía.",
+			imagen: "die-hard.jpg"
+		},
+		{
+			id:4,
+			titulo: "Commando",
+			descripcion: "John Matrix, (Arnold Schwarzenegger), es un ex-coronel de una unidad de Fuerzas Especiales del Ejército de los Estados Unidos, padre soltero, que se ha retirado a vivir en una cabaña en la montaña junto a su hija Jenny (Alyssa Milano). Sin saberlo él, sus ex-compañeros en el ejército están siendo asesinados uno a uno, primero Lawson, luego Forrestal y por último el capitán Bennet (Vernon Wells). Su amigo, el general Franklin Kirby (James Olson) pone a Matrix bajo el cuidado de dos guardias armados, pero los bandidos logran matarlos y secuestrar a Jenny. Matrix descubre que Bennet, que había caído en desgracia y estaba dado por muerto, no lo está en realidad sino que es el jefe de los secuestradores y que ha secuestrado a Jenny para que Matrix colabore en un asesinato a favor del señor de la guerra y ex-dictador de Val Verde, Arius (Dan Hedaya). Arius había sido depuesto en su día por Matrix y está ahora reuniendo fuerzas para dar un golpe de Estado y recuperar el poder. Matrix se ve obligado a matar nuevamente para salvar la vida de Jenny",
+			imagen: "back-to-the-future.jpg"
+		},
+		{
+			id:5,
+			titulo: "Mentiroso Mentiroso",
+			descripcion: "Fletcher Reede es un abogado ambicioso y sin escrúpulos, que utiliza la mentira como un medio habitual de trabajo. Su hijo de cinco años, harto de promesas incumplidas, pide un deseo el día de su cumpleaños, que su padre no pueda mentir durante veinticuatro horas. ",
+			imagen: "mentiroso-mentiroso.jpg"
+		},				
+		{
+			id:6,
+			titulo: "9 reinas",
+			descripcion: "Nueve reinas es una película argentina policial de 2000 escrita y dirigida por Fabián Bielinsky y protagonizada por Ricardo Darín, Gastón Pauls y Leticia Brédice. La película cuenta la historia de dos estafadores que se conocen por casualidad y deciden unirse para trabajar juntos.",
+			imagen: "9-reinas.jpg"
+		}
 
 	];
 
-
+	//Creamos una funcion para agregar una pelicula a nuestro array de peliculas.
 	function agregarPeli () {
 
-	var nuevoTitulo = document.getElementById('titulo').value;
-	var nuevaDescripcion = document.getElementById('descripcion').value;
-	var rutaImagen = document.getElementById('imagen').value;
+		//Tomamos los valores de los inputs del titulo, la descripcion y la imagen.
+		var nuevoTitulo = document.getElementById('titulo').value;
+		var nuevaDescripcion = document.getElementById('descripcion').value;
+		var rutaImagen = document.getElementById('imagen').value;
 
-	var pelicula = {
-		id: peliculas.length + 1,
-		titulo:nuevoTitulo,
-		descripcion:nuevaDescripcion,
-		imagen:rutaImagen
-	}
+		//Con esos valores, creamos un nuevo objeto "pelicula"
+		var pelicula = {
+			id: peliculas.length + 1, //Con esto le damos un id diferente a cada peli que creemos
+			titulo:nuevoTitulo,
+			descripcion:nuevaDescripcion,
+			imagen:rutaImagen
+		}
 
-	peliculas.push(pelicula);
-
-	console.log(peliculas);
+		//Finalmente ponemos nuestra pelicula en nuestro array de películas.
+		peliculas.push(pelicula);
+		alert('Película agregada correctamente');
+		console.log(peliculas);
 
 	};
 
+	//Ahora creamos nuestra función para renderizar todas nuestras pelis en el DOM
 	function render () {
 
-	for (var i = 0; i < peliculas.length; i++) {
+		var containerDePeliculas = document.getElementById('peliculas')
+		containerDePeliculas.innerHTML = '';
 
-		//Por cada pelicula genero un grupo
+		for (var i = 0; i < peliculas.length; i++) {
 
-		var container = document.createElement('div');
-		container.className = 'pelicula'
+			//Por cada pelicula genero un grupo
+			var container = document.createElement('div');
+			container.className = 'pelicula'
 
-		//Crear titulo
-		var titulo = document.createElement('h2');
-		var textoTitulo =  document.createTextNode(peliculas[i].titulo);
-		titulo.appendChild(textoTitulo);
+			//Crear titulo
+			var titulo = document.createElement('h2');
+			var textoTitulo =  document.createTextNode(peliculas[i].titulo);
+			titulo.appendChild(textoTitulo);
 
-		//Crear decripcion
-		var descripcion = document.createElement('p');
-		var textoDescripcion =  document.createTextNode(peliculas[i].descripcion);
-		descripcion.appendChild(textoDescripcion);
+			//Crear decripcion
+			var descripcion = document.createElement('p');
+			var textoDescripcion =  document.createTextNode(peliculas[i].descripcion);
+			descripcion.appendChild(textoDescripcion);
 
-		//Crear imagen
-		var imagen = document.createElement('img');
-		imagen.src = 'img/' + peliculas[i].imagen;
+			//Crear imagen
+			var imagen = document.createElement('img');
+			imagen.src = 'img/' + peliculas[i].imagen;
 
-		container.append(titulo);
-		container.append(imagen);
-		container.append(descripcion);
+			//Meter toda la información dentro del contenedor
+			container.append(titulo);
+			container.append(imagen);
+			container.append(descripcion);
 
-		document.body.append(container);
+			//Adjuntar el contenedor al body
+			containerDePeliculas.append(container);
+
+		}
 
 	}
 
+
+	//Por último tenemos nuestra función para ordenar nuestro array de objetos de diferentes maneras
+	function ordernarArray( arrayAOrdernar , forma, prop) {
+
+		arrayAOrdernar.sort(function (a,b) {
+
+			if (forma === 'asc') {
+				if(a[prop] > b[prop]) { // Para comparar utilizaremos la "propiedad" de cada objeto.
+					return 1;  // si retorna 1, a va a ir primero que b
+				} else {
+					return -1; // si retorna -1, b va a ir primero que a
+				}
+			} else {
+				if(a[prop] > b[prop]) {
+					return -1;
+				} else {
+					return 1;
+				}
+			}
+
+		})
+
 	}
 
 
+	/* EVENTOS */
+	//Creamos un "event handler" para que cuando el usuario haga click en los botones hagan diferentes acciones.
 
+	//El botón "agregar" llama a la función agregar peli.
 	document.getElementById('agregar').onclick = function (event) {
-
-		event.preventDefault();
+		event.preventDefault(); //Prevenimos el comportamiento por default del botón.
 		agregarPeli();
-		render();
-
 	}
 
+	//El botón mostrarTodos llama a la función agregar peli.
+	document.getElementById('mostrarTodos').onclick = function (event) {
+		event.preventDefault();
+		render();
+	}
+
+	//El botón ordenarId llama a la función ordernarArray ascendentemente y por id.
+	document.getElementById('ordenarId').onclick = function (event) {
+		event.preventDefault();		
+		ordernarArray( peliculas , 'asc', 'id');
+		render();
+	}
+
+	//El botón ordenarAz llama a la función ordernarArray ascendentemente y por título.
+	document.getElementById('ordenarAz').onclick = function (event) {
+		event.preventDefault();		
+		ordernarArray( peliculas , 'asc', 'titulo');
+		render();
+	}
+
+	//El botón ordenarZa llama a la función ordernarArray descendentemente y por título.
+	document.getElementById('ordenarZa').onclick = function (event) {
+		event.preventDefault();		
+		ordernarArray( peliculas , 'desc', 'titulo');
+		render();
+	}
 
 })()
+
+
+

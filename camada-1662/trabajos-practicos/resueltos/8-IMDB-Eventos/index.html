@@ -16,24 +16,35 @@
 			<section>
 
 				<div class='container'>
-					<form id="imdb-form" class="col-xs-6">
-						<div class="form-group">
-							<label>Titulo</label>
-							<input id="titulo" type="text" name="" class="form-control">
-						</div>
-						<div class="form-group">
-							<label>descripcion</label>
-							<input id="descripcion" type="text" name="" class="form-control">
-						</div>
-						<div class="form-group">
-							<label>imagen de la pelicula</label>
-							<input id="imagen" type="text" name="" class="form-control">
-						</div>
-						<button id='agregar' class="btn btn-primary">Agregar peli</button>
-					</form>
+					<div class="form-container">
+						<form id="imdb-form" class="col-xs-6">
+							<div class="form-group">
+								<label>Titulo</label>
+								<input id="titulo" type="text" name="" class="form-control">
+							</div>
+							<div class="form-group">
+								<label>descripcion</label>
+								<input id="descripcion" type="text" name="" class="form-control">
+							</div>
+							<div class="form-group">
+								<label>imagen de la pelicula</label>
+								<input id="imagen" type="text" name="" class="form-control">
+							</div>
+							<button id='agregar' class="btn btn-primary">Agregar peli</button>
+							<button id='mostrarTodos' class="btn btn-primary">Mostrar Todos</button>
+							<div>
+								<h3>Ordenar</h3>
+								<button id='ordenarId' class="btn btn-primary">ID</button>
+								<button id='ordenarAz' class="btn btn-primary">AZ</button>
+								<button id='ordenarZa' class="btn btn-primary">ZA</button>
+							</div>
+						</form>				
+					</div>
+
+					<div id="peliculas">
+					</div>
 				</div>
 			</section>
-
 
 		</main>
 	</body>

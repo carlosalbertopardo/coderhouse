@@ -1,64 +1,62 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Display y Alineación de HTML</title>
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
-	</head>
-	<body>
-		<main>
-			<header>
-				<h1 class="title">My primer Acordión!</h1>
-			</header>				
-			<section>
-				<div class="container">
-
-	<div id='accordion' class="accordion">
+<head>
+	<meta charset="UTF-8">
+	<title>Display y Alineación de HTML</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+</head>
+<body>
+	<main>
+		<header>
+			<h1 class="title">My primer Acordión!</h1>
+		</header>				
 		<section>
-			<div class='accordion-header'>
-				<h2>Primavera</h2>
-			</div>
-			<div class='accordion-content'>
-				ESTA ES el contenido de la section Primavera
+			<div class="container">
+
+				<!-- Aquí comienza nuestro Acordion -->
+				<div id='accordion' class="accordion">
+					<section>
+						<div class='accordion-header'>
+							<h2>Primavera</h2>
+						</div>
+						<div class='accordion-content'>
+							Astronómicamente, esta estación comienza con el equinoccio de primavera (entre el 20 y el 21 de marzo en el hemisferio norte, y entre el 21 y el 23 de septiembre en el hemisferio sur), y termina con el solsticio de verano (alrededor del 21 de junio en el hemisferio norte y el 21 de diciembre en el hemisferio sur).
+						</div>
+					</section>
+					<section>
+						<div class='accordion-header'>
+							<h2>Verano</h2>
+						</div>
+						<div class='accordion-content'>
+							El verano es una de las cuatro estaciones de las zonas templadas. Es la más cálida de ellas. Ocurre entre la primavera y el otoño. El verano se caracteriza porque los días son más largos y las noches más cortas.
+						</div>
+					</section>
+					<section>
+						<div class='accordion-header'>
+							<h2>Otoño</h2>
+						</div>
+						<div class='accordion-content'>
+							Estación del año comprendida entre el verano y el invierno; en el hemisferio norte, se sitúa aproximadamente entre el 21 de septiembre, equinoccio de otoño, y el 21 de diciembre, solsticio de invierno, y en el hemisferio sur entre el 21 de marzo y el 21 de junio.
+						</div>
+					</section>
+					<section>
+						<div class='accordion-header'>
+							<h2>Invierno</h2>
+						</div>
+						<div class='accordion-content'>
+							Estación del año comprendida entre el otoño y la primavera; en el hemisferio norte, se sitúa aproximadamente entre el 21 de diciembre, solsticio de invierno, y el 21 de marzo, equinoccio de primavera, y en el hemisferio sur entre el 21 de junio y el 21 de septiembre.
+						</div>
+					</section>
+				</div>	
+
 			</div>
 		</section>
-		<section>
-			<div class='accordion-header'>
-				<h2>Verano</h2>
-			</div>
-			<div class='accordion-content'>
-				ESTA ES el contenido de la section verano
-			</div>
-		</section>
-		<section>
-			<div class='accordion-header'>
-				<h2>Otoño</h2>
-			</div>
-			<div class='accordion-content'>
-				ESTA ES el contenido de la section Otoño
-			</div>
-		</section>
-		<section>
-			<div class='accordion-header'>
-				<h2>Invierno</h2>
-			</div>
-			<div class='accordion-content'>
-				ESTA ES el contenido de la section invierno
-			</div>
-		</section>
-						
-	</div>	
+	</main>
 
+	<!-- scripts -->
+	<script type="text/javascript" src="../common/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 
-
-				</div>
-			</section>
-		</main>
-
-		<!-- scripts -->
-		<script type="text/javascript" src="../common/js/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="js/app.js"></script>
-
-	</body>
+</body>
 </html>

@@ -1,44 +1,66 @@
 /*  
 
 EJERCICIO N°3
-
-Armar un accordión utilizando jQuery que posea 4 secciones: Pirmavera, Verano, Otoño e invierno
+Crear un componente de tabs con jQuery
 
 */
 
+/*
+RESOLUCION:
+Recordá ir paso a paso.
+*/
 
-function inicializarAccordión() {
+(function () { //Encapsulamos nuestro código por buenas prácticas
 
-	var accordion = $('#accordion');
+	function inicializarTabs() {
 
-	//ocultar las secciónes:
-	accordion.find('.accordion-content').hide();
+		//Escondo todos los contenidos de las tabs
+		$('.content').hide();
 
-	//Mostrar contenido
-	accordion.find('.accordion-header').click( function () {
+		//Adjunto los event handles cuando haga click en cada elemento que tenga la clase "tab"
+		$('.tab').click(function () {
 
-		if ( $(this).parent().hasClass('active') ) {
+			//Obetengo el número que está en el Id del elemento
+			var tabId = $(this).attr('id');
+			var stringId = tabId.split('-');
+			var id = stringId[1];	
 
-			$(this).parent().removeClass('active');
-			$(this).next().slideUp();
+			//Prengunto si la tab está NO esta activa: Si no está activa la activo:
+			if (!$(this).hasClass('active')) {
 
-		} else {
+				//Le agregao la clase "active" a la tab
+				$(this).addClass('active');
+				//Y muestro el contenido del elemento content concatenado con el id de la tab que obtuve
+				$('#content-'+id).show();
 
-			//Mostrar contenido
-			$(this).next().slideDown();
+				//Por ultimo cierro las tabs activas anteriormente:
+				cerrarOtrasTabs(id);
 
-			//Hacer funcion hide siblings
+			}
 
-			$(this).parent().addClass('active');
+		})
 
-		}
+	}
 
-		//Escoder contenido de los hermanos.
+	//Esta funcion revisa las tabs hermanas y las cierra si están activas
+	function cerrarOtrasTabs(id) {
 
-	});
+		//Sacarle la clase active a los tab hermanos
+		$('#tab-'+id).siblings().removeClass('active');
+
+		//Ocultar los tabs hermanos
+		$('#content-'+id).siblings().hide();
+
+	}
+
+	//Por último inicializo el componente
+	inicializarTabs()
+
+	//De YAPA: Puedo activar una tab llamando al evento
+	$('#tab-1').click();
 
 
-}
+})()
 
 
-inicializarAccordión();
+

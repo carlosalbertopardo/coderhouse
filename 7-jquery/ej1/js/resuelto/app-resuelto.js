@@ -1,44 +1,65 @@
 /*  
 
-EJERCICIO N°3
+EJERCICIO N°1
 
-Armar un accordión utilizando jQuery que posea 4 secciones: Pirmavera, Verano, Otoño e invierno
+Jquery Baby!!
+Empecemos a reconocer los selectores de jQuery con un pequeño ejercicio:
+- Importar la libreria de jquery
+- Agregar la clase "pod" a todos los li
+- Agregar la clase Simpson al h1 y a los h2 de cada pod
+- Agregar a Maggie al final de la lista (append,prepend, after, before  )
+
+	<li class="pod">
+		<h2>Maggie</h2>
+		<img src="img/maggie.png">
+		<p class="description">
+			Margaret Evelyn "Maggie" Simpson es un personaje ficticio de la serie de televisión de dibujos animados Los Simpson. Es la tercera hija del matrimonio protagonista, Homer y Marge Simpson, y la más joven de ellos. Sus hermanos mayores son Bart y Lisa Simpson. Siempre se la ve succionando un chupete y cuando camina, suele tropezar con el mono y cae de frente.
+		</p>							
+	</li>
+
+
+- Mover a bart a la primera posicion de la lista
+- Ocultar los personajes cuando hacemos click en ellos.
 
 */
 
+$(document).ready( function () {
 
-function inicializarAccordión() {
+	//Agregamos la clase pod a los LI
+	$('.list li').addClass('pod');
+	console.log($('.list li'));
 
-	var accordion = $('#accordion');
+	//Agregamos la clase "simpsons-font" a los h1 y los h2
+	$('h1').addClass('simpsons-font');
+	$('h2').addClass('simpsons-font');
 
-	//ocultar las secciónes:
-	accordion.find('.accordion-content').hide();
 
-	//Mostrar contenido
-	accordion.find('.accordion-header').click( function () {
+	//Creamos una estructura de HTML
+	var pod = $('<li class="pod">');
+	var titulo = $('<h2>Maggie</h2>');
+	var imagen = $('<img src="img/maggie.png">');
+	var description = $('<p class="description">Margaret Evelyn "Maggie" Simpson es un personaje ficticio de la serie de televisión de dibujos animados Los Simpson. Es la tercera hija del matrimonio protagonista, Homer y Marge Simpson, y la más joven de ellos. Sus hermanos mayores son Bart y Lisa Simpson. Siempre se la ve succionando un chupete y cuando camina, suele tropezar con el mono y cae de frente.</p></li>');
 
-		if ( $(this).parent().hasClass('active') ) {
+	//Appendeamos todo al pod
+	pod.append(titulo).append(imagen).append(description);
+	//Luego appendeamos el pod al elemento ul en el DOM
+	$('ul').append(pod);
 
-			$(this).parent().removeClass('active');
-			$(this).next().slideUp();
+	//Creamos un evento que cuando yo le haga click a CUALQUIER elemento con la clase "pod", me ejecute un fadeOut()
+	$('.pod').click(function () {
 
-		} else {
+		$(this).fadeOut();
 
-			//Mostrar contenido
-			$(this).next().slideDown();
-
-			//Hacer funcion hide siblings
-
-			$(this).parent().addClass('active');
-
-		}
-
-		//Escoder contenido de los hermanos.
+		//This es el elemento al que le estoy haciendo click
+		console.log(this);
 
 	});
 
 
-}
+	//Cuando hagamos click en el título, los pods vuelven a aparecer.
+	jQuery('h1').click(function () {
+		$('.pod').show();
+	})
 
 
-inicializarAccordión();
+});
