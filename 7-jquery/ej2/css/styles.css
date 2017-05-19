@@ -25,11 +25,11 @@ h1 {
 }
 
 
-
 .accordion {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding-top: 5px;
+    margin-bottom: 20px;
 }
 
 .accordion section {

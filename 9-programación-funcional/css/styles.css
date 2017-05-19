@@ -1,0 +1,105 @@
+/* Base styles */
+
+body {
+	font-family: arial;
+	background-color: 
+}
+
+h1 {
+	color: #2b19b8;
+	margin-bottom: 0px;
+	margin-top: 0;
+	font-size: 50px;
+	text-align: center;
+	line-height: 70px;
+	font-family: monospace;
+}
+
+.subtitle {
+	font-size: 30px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.logo {
+	max-width: 320px;
+}
+
+.example {
+	background-color: #cccccc;
+	border: 1px solid #aaa;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+footer {
+	margin: 20px	
+}
+
+
+/* Ids for examples */
+
+#ex-1 {
+	width: 100px;
+}
+
+#ex-2 {
+	width: 100px;
+	height: 300px;
+}
+
+#ex-3 {
+	width: 60%;
+}
+
+
+.background-example {
+	height: 400px;
+	background-image: url("../img/pacman-bk-1.jpg");
+}
+
+#ex-5 {
+	background-repeat: no-repeat;
+}
+
+#ex-6 {
+	background-repeat: repeat-x;
+}
+
+#ex-7 {
+	background-repeat: repeat-y;
+}
+
+/* Position example */
+
+.position-example {
+	height: 400px;
+	background-image: url("../img/pacman-2.png");
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border: 1px solid #ccc;	
+}
+
+#ex-9 {
+	background-position: center right
+}
+
+#ex-10 {
+	background-position: bottom center
+}
+
+#ex-11 {
+	background-position: 20% 80%
+}
+
+#ex-12 {
+	background-position: right 40px bottom 10%
+}
+
+
+
+

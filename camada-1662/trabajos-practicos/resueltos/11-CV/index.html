@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Otros ejemplos</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">		
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1 class="title">Generador de Curriculums</h1>
+				<p class="subtitle">Sitio Oficial de la AFIP. POSTA EH</p>
+			</header>
+			<section>
+
+				<div class='container'>
+					<section id="formulario">
+					<h2>Por favor ingrese sus datos</h2>
+						<div class="form-container row">
+							<form id="cv-form" class="col-xs-6">
+								<div class="form-group">
+									<label>Nombre</label>
+									<input id="nombre" type="text" name="" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>Apellido</label>
+									<input id="apellido" type="text" name="" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>Género</label>
+									<div class="radio">
+		  								<label><input id="masculino" type="radio" name="optradio">masculino</label>
+									</div>
+									<div class="radio">
+		  								<label><input id="femenino" type="radio" name="optradio">Femenino</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Ocupación</label>
+									<select id="ocupacion" class="form-control">
+										<option>Estudiante</option>
+										<option>Desempleado</option>
+										<option>Empleado</option>
+										<option>Haciendo Changas</option>
+										<option>Vago</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label>Estudios</label>
+									<textarea id="estudios" class="form-control"></textarea>
+								</div>
+								<div class="form-group">
+									<label>Ruta de imagen</label>
+									<input id="imagen" type="text" name="" class="form-control">
+								</div>
+								<div class="text-center">
+									<button id='generar' class="btn btn-primary">Generar CV</button>
+								</div>
+							</form>				
+						</div>
+					</section>	
+					<section id="cv-generado">
+						<article>
+							<h2>Curriculum Vitae</h2>
+							<!-- Field -->
+							<div class="info-group">
+								<label>Nombre</label>
+								<span></span>
+							</div>
+							<div class="text-center">
+								<button class="btn btn-primary">Generar CV</button>
+							</div>
+						</article>	
+					</section>
+				</div>
+			</section>
+
+		</main>
+	
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+	</body>
+</html>
