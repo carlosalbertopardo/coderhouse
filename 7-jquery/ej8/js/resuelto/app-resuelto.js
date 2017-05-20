@@ -16,13 +16,17 @@ EJERCICIO N°6
 
 		colorComponents.each(function (index, element) {
 
+			console.log(element);
+
 			var componentRadios = $(element).find('input[type="radio"]');
 			var image = $(element).find('img');
 
 			componentRadios.change(function () {
 	
+				console.log(this);
 				var newColor = this.value;
 				changeImage(newColor, image);
+
 
 			});
 

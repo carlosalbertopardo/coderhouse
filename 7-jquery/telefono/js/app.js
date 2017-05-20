@@ -15,7 +15,7 @@ Ejercicio: Teléfono
 -	Renderizar la lista de contactos.
 -	El segundo botón llamará por teléfono. En caso de encontrar el contacto en la base, dirá “Llamando a NOMBREDELCONTACTO”.
 	Cuando haga click en el contacto, llamar al contacto.
--	El teléfono debe tener 8 numeros
+-	El teléfono debe tener 8 numeros (Trim)
 
 
 */

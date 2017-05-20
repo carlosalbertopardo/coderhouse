@@ -4,28 +4,36 @@
 		<meta charset="UTF-8">
 		<title>Display y Alineación de HTML</title>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
 	</head>
 	<body>
 		<main>
 			<header>
-				<h1 class="title"></h1>
-
-				<div class="radio-component">
-
+				<h1 class="title">Concesionaria loca</h1>
+			</header>				
+			<section class="text-center">
+				<div class="color-component">
 					<div class="image-container">
-						<img src="">	
+						<img src="img/camaro-amarillo.png">	
 					</div>
 					<div class="radio-selector">
-						<label class="checkbox-inline"><input type="checkbox" value="">Option 1</label>
-						<label class="checkbox-inline"><input type="checkbox" value="">Option 2</label>
-						<label class="checkbox-inline"><input type="checkbox" value="">Option 3</label>
-					</div>
+						<div>
+							<input name="camaro" type="radio" value="camaro-amarillo">							
+							<label>Amarillo</label>
+						</div>
+						<div>
+							<input name="camaro" type="radio" value="camaro-rosa">							
+							<label>Rosa</label>
+						</div>
+						<div>
+							<input name="camaro" type="radio" value="camaro-azul">							
+							<label>Azul</label>
+						</div>
+					</div>	
 				</div>
-			</header>				
-			<section>
 			</section>
+			<img id="stan" src="img/stan.gif">
 		</main>
-	<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-3.2.1.min.js"></script>		
+		<script type="text/javascript" src="js/app.js"></script>
 	</body>
 </html>

@@ -64,6 +64,11 @@ input {
     border: 1px solid #cccccc;
 }
 
+.container {
+    width: 90%;
+    margin: 20px auto
+}
+
 
 /* tooltip styles*/
 
@@ -71,11 +76,22 @@ input {
     display: inline-block;
     padding-left: 9px;
     position: relative;
+    margin-top: 10px;
 }
 
 .tooltip-content {
-    display: none;
     position: absolute;
+    background-color: #404040;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    top: 36px;
+    width: 187px;
+    display: none;
+}
+
+.tooltip-content.toggle {
+    display: block;
 }
 
 .tooltip-icon {
@@ -86,13 +102,16 @@ input {
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
-}s
-
-.tooltip-icon:hover {
-    background-color: lightblue;
 }
 
 .tooltip-icon span {
     position: relative;
     top:4px;
+}
+
+.tooltip-content .arrow {
+    position: absolute;
+    position: absolute;
+    top: -4px;
+    left: 11px;
 }
