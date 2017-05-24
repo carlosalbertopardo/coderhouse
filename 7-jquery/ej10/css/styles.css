@@ -1,0 +1,171 @@
+/* Base styles */
+
+body {
+	font-family: arial;
+	margin: 0;
+}
+
+h1 {
+	color: #ac341c;
+	margin-bottom: 0px;
+	margin-top: 0;
+	font-size: 80px;
+	text-align: center;
+	line-height: 70px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+header {
+	background-color: #1b4683; 
+}
+
+main {
+    margin-top: 20px;
+}
+
+.logo {
+	width: 90px;
+}
+
+p.description {
+    display: none;
+}
+
+.subtitle {
+	font-size: 30px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.cajonera {
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.cajonera .header {
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.cajonera .header.leido {
+	background-color: floralwhite;
+}
+
+
+.cajonera .header h2 {
+	display: inline-block;
+    max-width: 70%;
+    margin: 0;
+    font-size: 19px;
+    text-transform: inherit;
+    padding: 10px;
+    font-family: fantasy;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #2d2d2d;    
+}
+
+.cajonera .header button {
+    background-color: midnightblue;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #fff;
+    padding: 8px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+	outline:none;
+}
+
+.cajonera .header button:hover {
+	background-color: lightblue;
+}
+
+.cajonera .contenido {
+	display: none;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/* */
+
+.menu {
+	float: right;
+	margin-top: 27px;
+	cursor: pointer;
+}
+
+.menu button {
+	background: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.menu .cruz {
+	height: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.menu .hamburguesa {
+	display: none;
+    height: 16px;
+    position: relative;
+    top: 1px;	
+}
+
+nav {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #2d2d2d;
+    height: 400px;
+	top: 67px;
+}
+
+nav h2 {
+    font-size: 18px;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+nav ul {
+    padding-left: 30px;
+}
+
+nav ul li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightblue;
+	font-size: 18px;	
+	font-family: sans-serif;
+}
