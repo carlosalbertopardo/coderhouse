@@ -1,7 +1,14 @@
-/*  
 
-EJERCICIO N°7
 
-	Crear un componente con 3 radio buttons que hagan cambiar de color al auto
 
-*/
+
+$('#crazy-box').mouseenter(function () {
+
+	var positionActual = $(this).position().left;
+
+	console.log(positionActual);
+
+	var nuevaPos = positionActual + 30;
+	$(this).css('left',nuevaPos + 'px');
+
+})

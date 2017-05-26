@@ -8,7 +8,7 @@
 	o	Género (2 radio button: )
 	o	Edad (input=number)
 	o	Ocupación (select)
-	o	Estudios -> (input=text)
+	o	Estudios -> (textarea)
 	o	Foto -> (input=text solo con la ruta de la imagen)
 - La página debe tener un botón que diga “Generar cv”.
 - Una vez presionado el botón, El formulario tiene que ocultarse y se mostrará un CV con toda la información ingresada.
@@ -22,12 +22,12 @@
 
 (function () {
 
-	$('#cv-form input, #cv-form select, #cv-form textarea').each( function (index, element){
+	$('#generar').click(function (event) {
 
-		console.log(index);
-		console.log(element.tagName);
+		event.preventDefault();
+		console.log('holaaaaa');
 
-	});
+	})
 
 
 })()

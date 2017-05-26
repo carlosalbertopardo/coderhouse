@@ -7,3 +7,33 @@ EJERCICIO N°8
 	- Centrar el heacer horizontalmente en todo momento.
 
 */
+
+
+console.log('in');
+
+
+var imagen = $('#header-image');
+
+imagen.on('load', function () {
+	console.log('se termino de cargar la imagen');	
+
+
+
+})
+
+
+var size = $(window).width();
+
+console.log(size);
+
+var desktop = 1920;
+var tablet = 1200;
+var mobile = 768;
+
+if( size < mobile )	{
+	imagen.attr('src','img/chavo-768.png'); 
+} else {
+	imagen.attr('src','img/chavo-1920.png'); 
+}
+
+

@@ -10,3 +10,10 @@ EJERCICIO N°1 - Anclas con efectos:
 - Utilizar los efectos animate y scrollTo.
 
 */
+
+console.log('hola!!');
+
+$('body').niceScroll({
+	cursorcolor: 'blue',
+	cursorwidth: '20'
+});

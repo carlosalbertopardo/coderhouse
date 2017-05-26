@@ -80,3 +80,7 @@ p.description {
     left: 0;
     bottom: 0;
 }
+
+input[type='radio'] {
+    width: 30px;
+}
