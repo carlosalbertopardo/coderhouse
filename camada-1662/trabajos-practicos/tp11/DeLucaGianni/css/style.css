@@ -1,0 +1,49 @@
+form {
+	margin: 0 auto;}
+
+form input, form textarea, form select {
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+form input[type="submit"]{
+	border: 0 ;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.articulos-contenedor {
+	text-align: center;
+}
+
+.normal {
+	color: black;
+}
+
+.urgente{
+	color:red;
+}
+
+.novedad {
+	color: green;
+}
+
+div {
+	width: 50%;
+	margin: 100px auto;
+}
+
+div h1 {
+	font-size: 25px;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+div p {
+	font-style: italic;
+}
+

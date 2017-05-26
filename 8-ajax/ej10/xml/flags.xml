@@ -1,0 +1,479 @@
+<countries>
+
+    <country name="Argentina">
+        <locale code="es-ar">
+            <url display="http://www.colgate.com.ar/app/Colgate/AR/CompanyHomePage.cvsp">Argentina</url>
+        </locale>
+        <tel display="(Pay Line) 0-810-444-0057">555-5555</tel>
+        <flag src="flag_Argentina.png"/>
+    </country>
+
+    <country name="Australia">
+        <locale code="en-au">
+            <url display="http://www.colgate.com.au/app/Colgate/AU/CompanyHomePage.cvsp">Australia</url>
+        </locale>
+        <flag src="flag_Australia.png"/>
+    </country>
+
+    <country name="Austria">
+        <locale code="de-at">
+            <url display="http://www.colgate.at/app/Colgate/AT/CompanyHomePage.cvsp">Austria</url>
+        </locale>
+        <tel display="08000-123-965">555-5555</tel>
+        <flag src="flag_Austria.png"/>
+    </country>
+
+    <country name="Belgium (Français)">
+        <locale code="fr-be">
+            <url display="http://www.colgate.be/app/Colgate/BE/FR/HomePage.cvsp">Belgium (Français)</url>
+        </locale>
+        <tel display="00-800-321-321-32 (Oral Care Only), 00-800-1-22 11 (Bleach/Soupline/Ajax)">555-5555</tel>
+        <flag src="flag_Belgium.png"/>
+    </country>
+
+    <country name="Belgium (Nederlands)">
+        <locale code="nl-be">
+            <url display="http://www.colgate.be/app/Colgate/BE/NL/HomePage.cvsp">Belgium (Nederlands)</url>
+        </locale>
+        <tel display="00-800-321-321-32 (Oral Care Only), 00-800-1-22 11 (Bleach/Soupline/Ajax)">555-5555</tel>
+        <flag src="flag_Belgium.png"/>
+    </country>
+
+    <country name="Bolivia">
+        <locale code="es-bo">
+            <url display="http://www.colgate.com.bo/app/Colgate/BO/CompanyHomePage.cvsp">Bolivia</url>
+        </locale>
+        <tel display="Toll Free Number: 800-11-1234">555-5555</tel>
+        <flag src="flag_Bolivia.png"/>
+    </country>
+
+    <country name="Brazil">
+        <locale code="br-br">
+            <url display="http://www.colgatepalmolive.com.br/app/Colgate/BR/CompanyHomePage.cvsp">Brazil</url>
+        </locale>
+        <tel display="0-800-703-7722">555-5555</tel>
+        <flag src="flag_Brazil.png"/>
+    </country>
+
+    <country name="Canada (English)">
+        <locale code="en-ca">
+            <url display="http://www.colgate.ca/app/Colgate/CA/EN/CompanyHomePage.cvsp">Canada</url>
+        </locale>
+        <tel display="1-800-268-6757">555-5555</tel>
+        <flag src="flag_Canada.png"/>
+    </country>
+
+    <country name="Canada (Français)">
+        <locale code="fr-ca">
+            <url display="http://www.colgate.ca/app/Colgate/CA/FR/CompanyHomePage.cvsp">Canada</url>
+        </locale>
+        <tel display="1-800-268-6757">555-5555</tel>
+        <flag src="flag_Canada.png"/>
+    </country>
+
+    <country name="Chile">
+        <locale code="es-cl">
+            <url display="http://www.colgate.cl/app/Colgate/CL/CompanyHomePage.cvsp">Chile</url>
+        </locale>
+        <tel display="56-2-800 200 510">555-5555</tel>
+        <flag src="flag_Chile.png"/>
+    </country>
+    
+    <country name="China">
+        <locale code="zh-zh">
+            <url display="http://www.colgate.com.cn/app/Colgate/CN/CompanyHomePage.cvsp">China</url>
+        </locale>
+        <tel display="800-8302238">555-5555</tel>
+        <flag src="flag_China.png"/>
+    </country>
+    
+    <country name="Colombia">
+        <locale code="es-co">
+            <url display="http://www.colgate.com.co/app/Colgate/CO/CompanyHomePage.cvsp">Colombia</url>
+        </locale>
+        <tel display="01-8000-520-800">555-5555</tel>
+        <flag src="flag_Colombia.png"/>
+    </country>
+
+    <country name="Costa Rica">
+        <locale code="es-gt">
+            <url display="http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp">Costa Rica</url>
+        </locale>
+        <flag src="flag_Costa-Rica.png"/>
+    </country>
+
+    <country name="Croatia">
+        <locale code="hr-hr">
+            <url display="http://www.colgate.hr/app/Colgate/HR/CompanyHomePage.cvsp">Croatia</url>
+        </locale>
+        <flag src="flag_Costa-Rica.png"/>
+    </country>
+
+    <country name="Czech Republic">
+        <locale code="cs-cz">
+            <url display="http://www.colgate.cz/app/Colgate/CZ/HomePage.cvsp">Czech Republic</url>
+        </locale>
+        <tel display="800-COLGATE (2654283)">555-5555</tel>
+        <flag src="flag_Costa-Rica.png"/>
+    </country>
+
+    <country name="Denmark">
+        <locale code="da-da">
+            <url display="http://www.colgate.dk/app/Colgate/DK/CompanyHomePage.cvsp">Denmark</url>
+        </locale>
+        <tel display="45-80-60-70-00">555-5555</tel>
+        <flag src="flag_Denmark.png"/>
+    </country>
+
+    <country name="Dominican Republic">
+        <locale code="es-do">
+            <url display="http://www.colgate.com.do/app/Colgate/DO/CompanyHomePage.cvsp">Dominican Republic</url>
+        </locale>
+        <tel display="1-809-200-1472">555-5555</tel>
+        <flag src="flag_Dominican-Republic.png"/>
+    </country>
+
+    <country name="Ecuador">
+        <locale code="es-ec">
+            <url display="http://www.colgate.com.ec/app/Colgate/EC/CompanyHomePage.cvsp">Ecuador</url>
+        </locale>
+        <tel display="1-800-895020">555-5555</tel>
+        <flag src="flag_Ecuador.png"/>
+    </country>
+
+    <country name="El Salvador">
+        <locale code="es-gt">
+            <url display="http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp">El Salvador</url>
+        </locale>
+        <flag src="flag_Ecuador.png"/>
+    </country>
+
+    <country name="France">
+        <locale code="fr-fr">
+            <url display="http://www.colgate.fr/app/Colgate/FR/CompanyHomePage.cvsp">France</url>
+        </locale>
+        <tel display="0-810-63-27-20 (Household Surface Care/Fabric Care), 0-810-63-45-26 (Oral Care and Body Care)">555-5555</tel>
+        <flag src="flag_France.png"/>
+    </country>
+
+    <country name="Germany">
+        <locale code="de-de">
+            <url display="http://www.colgate.de/app/Colgate/DE/CompanyHomePage.cvsp">Germany</url>
+        </locale>
+        <tel display="0800-725-66-54">555-5555</tel>
+        <flag src="flag_Germany.png"/>
+    </country>
+    
+    <country name="Greece">
+        <locale code="el-gr">
+            <url display="http://www.colgate.com.gr/app/Colgate/GR/CompanyHomePage.cvsp">Greece</url>
+        </locale>
+        <tel display="800-11-25100">555-5555</tel>
+        <flag src="flag_Greece.png"/>
+    </country>
+
+    <country name="Guatemala">
+        <locale code="es-gt">
+            <url display="http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp">Guatemala</url>
+        </locale>
+        <tel display="1-801-265-4283">555-5555</tel>
+        <flag src="flag_Guademala.png"/>
+    </country>
+    
+    <country name="Honduras">
+        <locale code="es-gt">
+            <url display="http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp">Honduras</url>
+        </locale>
+        <tel display="238-5476">555-5555</tel>
+        <flag src="flag_Honduras.png"/>
+    </country>
+    
+    <country name="Hong Kong">
+        <locale code="zh-hk">
+            <url display="http://www.colgate.com.hk/app/Colgate/HK/CompanyHomePage.cvsp">Hong Kong</url>
+        </locale>
+        <tel display="800-938281">555-5555</tel>
+        <flag src="flag_Hong-Kong.png"/>
+    </country>
+    
+    <country name="India">
+        <locale code="zh-hk">
+            <url display="http://www.colgate.co.in/app/Colgate/IN/HomePage.cvsp">India</url>
+        </locale>
+        <tel display="1-800-225599">555-5555</tel>
+        <flag src="flag_India.png"/>
+    </country>
+
+    <country name="Ireland">
+        <locale code="ga-ie">
+            <url display="http://www.colgate.co.uk/app/Colgate/UK/CompanyHomePage.cvsp">Ireland</url>
+        </locale>
+        <tel display="00-800-321-321-32">555-5555</tel>
+        <flag src="flag_Ireland.png"/>
+    </country>
+    
+    <country name="Italy">
+        <locale code="it-it">
+            <url display="http://www.colgate.it/app/Colgate/IT/CompanyHomePage.cvsp">Italy</url>
+        </locale>
+        <tel display="800-860047">555-5555</tel>
+        <flag src="flag_Italy.png"/>
+    </country>
+
+    <country name="Latvia">
+        <locale code="lv-lv">
+            <url display="http://www.colgate.lv/app/Colgate/LV/HomePage.cvsp">Latvia</url>
+        </locale>
+        <tel display="00-800-321-321-32 (Oral Care)">555-5555</tel>
+        <flag src="flag_Latvia.png"/>
+    </country>
+
+    <country name="Malaysia">
+        <locale code="en-my">
+            <url display="http://www.colgate.com.my/app/Colgate/MY/HomePage.cvsp">Malaysia</url>
+        </locale>
+        <tel display="1-800-883-918">555-5555</tel>
+        <flag src="flag_Malaysia.png"/>
+    </country>
+
+    <country name="Mexico">
+        <locale code="en-my">
+            <url display="http://www.colgate.com.mx/app/Colgate/MX/CompanyHomePage.cvsp">Mexico</url>
+        </locale>
+        <tel display="01-800-001-1400">555-5555</tel>
+        <flag src="flag_Mexico.png"/>
+    </country>
+    
+    <country name="Netherlands">
+        <locale code="nl-nl">
+            <url display="http://www.colgate.nl/app/Colgate/NL/HomePage.cvsp">Netherlands</url>
+        </locale>
+        <tel display="00-800-321-321-32">555-5555</tel>
+        <flag src="flag_Netherlands.png"/>
+    </country>
+    
+    <country name="Nicaragua">
+        <locale code="es-gt">
+            <url display="http://www.colgatecentralamerica.com/app/Colgate/GT/HomePage.cvsp">Nicaragua</url>
+        </locale>
+        <tel display="269-6244">555-5555</tel>
+        <flag src="flag_Nicaragua.png"/>
+    </country>
+
+    <country name="Norway">
+        <locale code="nn-no">
+            <url display="http://www.colgate.no/app/Colgate/NO/CompanyHomePage.cvsp">Norway</url>
+        </locale>
+        <tel display="47-800-400-75">555-5555</tel>
+        <flag src="flag_Norway.png"/>
+    </country>
+
+    <country name="Pakistan">
+        <locale code="pk-pk">
+            <url display="http://colgate.com.pk/app/Colgate/PK/HomePage.html">Pakistan</url>
+        </locale>
+        <tel display="47-800-400-75">555-5555</tel>
+        <flag src="flag_Pakistan.png"/>
+    </country>
+    
+    <country name="Panama">
+        <locale code="es-gt">
+            <url display="http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp">Panama</url>
+        </locale>
+        <tel display="800-COL2 (2652)">555-5555</tel>
+        <flag src="flag_Panama.png"/>
+    </country>
+
+    <country name="Paraguay">
+        <locale code="es-py">
+            <url display="http://www.colgate.com.py/app/Colgate/PY/CompanyHomePage.cvsp">Paraguay</url>
+        </locale>
+        <tel display="0098005420055">555-5555</tel>
+        <flag src="flag_Paraguay.png"/>
+    </country>
+
+    <country name="Peru">
+        <locale code="es-pe">
+            <url display="http://www.colgate.com.pe/app/Colgate/PE/CompanyHomePage.cvsp">Peru</url>
+        </locale>
+        <tel display="0801-1-3636">555-5555</tel>
+        <flag src="flag_Peru.png"/>
+    </country>
+    
+    <country name="Philippines">
+        <locale code="fil-ph">
+            <url display="http://www.colgate.ph/app/Colgate/PH/CompanyHomePage.cvsp">Philippines</url>
+        </locale>
+        <tel display="1-800-1-888-2774">555-5555</tel>
+        <flag src="flag_Philippines.png"/>
+    </country>
+    
+    <country name="Poland">
+        <locale code="pl-pl">
+            <url display="http://www.colgate.pl/app/Colgate/PL/CompanyHomePage.cvsp">Poland</url>
+        </locale>
+        <tel display="0-801-11-66-11">555-5555</tel>
+        <flag src="flag_Poland.png"/>
+    </country>
+    
+    <country name="Portugal">
+        <locale code="pt-pt">
+            <url display="http://www.colgate.pt/app/Colgate/PT/CompanyHomePage.cvsp">Portugal</url>
+        </locale>
+        <tel display="00 800 321 321 32 (Oral Care Only)">555-5555</tel>
+        <flag src="flag_Portugal.png"/>
+    </country>
+
+    <country name="Romania">
+        <locale code="ro-ro">
+            <url display="http://www.colgate.ro/app/Colgate/RO/CompanyHomePage.cvsp">Romania</url>
+        </locale>
+        <tel display="0800 070 027">555-5555</tel>
+        <flag src="flag_Romania.png"/>
+    </country>
+
+    <country name="Russia">
+        <locale code="ru-ru">
+            <url display="http://www.colgate.ru/app/Colgate/RU/CompanyHomePage.cvsp">Russia</url>
+        </locale>
+        <tel display="0800 070 027">555-5555</tel>
+        <flag src="flag_Russian-Federation.png"/>
+    </country>
+
+    <country name="Singapore">
+        <locale code="en-sg">
+            <url display="http://www.colgate.com.sg/app/Colgate/SG/CompanyHomePage.cvsp">Singapore</url>
+        </locale>
+        <tel display="800-6011-251">555-5555</tel>
+        <flag src="flag_Singapore.png"/>
+    </country>
+
+    <country name="Slovakia">
+        <locale code="sk-sk">
+            <url display="http://www.colgate.com/app/Colgate/SK/HomePage.cvsp">Slovakia</url>
+        </locale>
+        <tel display="800-6011-251">555-5555</tel>
+        <flag src="flag_Slovakia.png"/>
+    </country>
+   
+   <country name="Slovenia">
+        <locale code="sl-si">
+            <url display="http://www.colgate.si/app/Colgate/SI/HomePage.cvsp">Slovenia</url>
+        </locale>
+        <tel display="800-6011-251">555-5555</tel>
+        <flag src="flag_Slovenia.png"/>
+    </country>
+
+    <country name="South Africa">
+        <locale code="en-za">
+            <url display="http://www.colgate.co.za/app/Colgate/ZA/CompanyHomePage.cvsp">South Africa</url>
+        </locale>
+        <tel display="0860-114-146">555-5555</tel>
+        <flag src="flag_South-Africa.png"/>
+    </country>
+    
+    <country name="Spain">
+        <locale code="es-es">
+            <url display="http://www.colgate.es/app/Colgate/ES/CompanyHomePage.cvsp">Spain</url>
+        </locale>
+        <tel display="00-800-321-321-32">555-5555</tel>
+        <flag src="flag_Spain.png"/>
+    </country>
+    
+    <country name="Sweden">
+        <locale code="sv-se">
+            <url display="http://www.colgate.se/app/Colgate/SE/CompanyHomePage.cvsp">Sweden</url>
+        </locale>
+        <tel display="00-90-888-99-57">555-5555</tel>
+        <flag src="flag_Sweden.png"/>
+    </country>
+   
+    <country name="Switzerland">
+        <locale code="de-ch">
+            <url display="http://www.colgate.ch/app/Colgate/CH/DE/HomePage.cvsp">Switzerland</url>
+        </locale>
+        <tel display="00-800-321-321-32 (Oral Care Only)">555-5555</tel>
+        <flag src="flag_Switzerland.png"/>
+    </country>
+    
+    <country name="Taiwan">
+        <locale code="zh-tw">
+            <url display="http://www.colgate.com.tw/app/Colgate/TW/ZH/HomePage.cvsp">Taiwan</url>
+        </locale>
+        <tel display="0800011176">555-5555</tel>
+        <flag src="flag_Taiwan.png"/>
+    </country>
+
+    <country name="Thailand">
+        <locale code="th-th">
+            <url display="http://www.colgate.co.th/app/Colgate/TH/TH/CompanyHomePage.cvsp">Thailand</url>
+        </locale>
+        <tel display="1-800-800-900">555-5555</tel>
+        <flag src="flag_Thailand.png"/>
+    </country>
+
+    <country name="Turkey">
+        <locale code="tr-tr">
+            <url display="http://www.colgate.com.tr/app/Colgate/TR/HomePage.cvsp">Turkey</url>
+        </locale>
+        <tel display="Pay Line: 0216-519 81 01">555-5555</tel>
+        <flag src="flag_Turkey.png"/>
+    </country>
+
+    <country name="Ukraine">
+        <locale code="uk-ua">
+            <url display="http://www.colgate.com.ua/app/Colgate/UA/UA/CompanyHomePage.cvsp">Ukraine</url>
+        </locale>
+        <tel display="Pay Line: 0216-519 81 01">555-5555</tel>
+        <flag src="flag_Ukraine.png"/>
+    </country>
+
+    <country name="United Kingdom">
+        <locale code="en-gb">
+            <url display="http://www.colgate.co.uk/app/Colgate/UK/CompanyHomePage.cvsp">United Kingdom</url>
+        </locale>
+        <tel display="00-800-321-321-32">555-5555</tel>
+        <flag src="flag_United-Kingdom.png"/>
+    </country>
+    
+    <country name="United States (English)">
+        <locale code="en-us">
+            <url display="http://www.colgatepalmolive.com/app/Colgate/US/CompanyHomePage.cvsp">United States (English)</url>
+        </locale>
+        <tel display="00-800-321-321-32">555-5555</tel>
+        <flag src="flag_United-States-of-America.png"/>
+    </country>
+    
+    <country name="United States (Español)">
+        <locale code="es-us">
+            <url display="http://www.colgate.com/app/Colgate/USES/CompanyHomePage.cvsp">United States (Español)</url>
+        </locale>
+        <tel display="00-800-321-321-32">555-5555</tel>
+        <flag src="flag_United-States-of-America.png"/>
+    </country>
+    
+    <country name="Uruguay">
+        <locale code="es-uy">
+            <url display="http://www.colgate.com.uy/app/Colgate/UY/CompanyHomePage.cvsp">Uruguay</url>
+        </locale>
+        <tel display="000405-4057">555-5555</tel>
+        <flag src="flag_Uruguay.png"/>
+    </country>
+    
+    <country name="Venezuela">
+        <locale code="es-ve">
+            <url display="http://www.colgate.com.ve/app/Colgate/VE/CompanyHomePage.cvsp">Venezuela</url>
+        </locale>
+        <tel display="0800-552-62-92">555-5555</tel>
+        <flag src="flag_Venezuela.png"/>
+    </country>
+    
+    <country name="Vietnam">
+        <locale code="vi-vn">
+            <url display="http://www.colgate.com.vn/app/Colgate/VN/CompanyHomePage.cvsp">Vietnam</url>
+        </locale>
+        <tel display="0800-552-62-92">555-5555</tel>
+        <flag src="flag_Viet-Nam.png"/>
+    </country>
+
+</countries>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TP 10 - Noticias</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="author" content="Juan Dematei">
+</head>
+
+<body>
+  <header>
+    <h1>The Coderhouse Times</h1>
+  </header>
+  <main class="container">
+    <div id="cargar" class="col-sm-4">
+      <h2>Cargar noticias</h2>
+      <form>
+        <div class="form-group">
+          <label for="">Titulo</label>
+          <input type="text" class="form-control" id="titulo">
+        </div>
+        <div class="form-group">
+          <label for="">Texto</label>
+          <textarea id="contenido" cols="30" rows="3" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="">Importancia</label>
+          <select class="form-control" id="importancia">
+              <option value="info">Normal</option>
+              <option value="warning">Destacada</option>
+              <option value="danger">Alerta</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Cargar noticia</button>
+        </div>
+      </form>
+    </div>
+    <div id="mostar" class="col-sm-8">
+      <h2>Mostrar noticias</h2>
+      <div id="noticias">
+
+      </div>
+    </div>
+  </main>
+  <!--Scripts below this line-->
+  <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+</body>
+
+</html>

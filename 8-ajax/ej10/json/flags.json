@@ -1,0 +1,1009 @@
+{
+	"countries": {
+		"country": [{
+				"name": "Argentina",
+				"locale": {
+					"code": "es-ar",
+					"url": {
+						"display": "http://www.colgate.com.ar/app/Colgate/AR/CompanyHomePage.cvsp",
+						"text": "Argentina"
+					}
+				},
+				"tel": {
+					"display": "(Pay Line) 0-810-444-0057",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Argentina.png"
+				}
+			},
+			{
+				"name": "Australia",
+				"locale": {
+					"code": "en-au",
+					"url": {
+						"display": "http://www.colgate.com.au/app/Colgate/AU/CompanyHomePage.cvsp",
+						"text": "Australia"
+					}
+				},
+				"flag": {
+					"src": "flag_Australia.png"
+				}
+			},
+			{
+				"name": "Austria",
+				"locale": {
+					"code": "de-at",
+					"url": {
+						"display": "http://www.colgate.at/app/Colgate/AT/CompanyHomePage.cvsp",
+						"text": "Austria"
+					}
+				},
+				"tel": {
+					"display": "08000-123-965",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Austria.png"
+				}
+			},
+			{
+				"name": "Belgium (Français)",
+				"locale": {
+					"code": "fr-be",
+					"url": {
+						"display": "http://www.colgate.be/app/Colgate/BE/FR/HomePage.cvsp",
+						"text": "Belgium (Français)"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32 (Oral Care Only), 00-800-1-22 11 (Bleach/Soupline/Ajax)",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Belgium.png"
+				}
+			},
+			{
+				"name": "Belgium (Nederlands)",
+				"locale": {
+					"code": "nl-be",
+					"url": {
+						"display": "http://www.colgate.be/app/Colgate/BE/NL/HomePage.cvsp",
+						"text": "Belgium (Nederlands)"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32 (Oral Care Only), 00-800-1-22 11 (Bleach/Soupline/Ajax)",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Belgium.png"
+				}
+			},
+			{
+				"name": "Bolivia",
+				"locale": {
+					"code": "es-bo",
+					"url": {
+						"display": "http://www.colgate.com.bo/app/Colgate/BO/CompanyHomePage.cvsp",
+						"text": "Bolivia"
+					}
+				},
+				"tel": {
+					"display": "Toll Free Number: 800-11-1234",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Bolivia.png"
+				}
+			},
+			{
+				"name": "Brazil",
+				"locale": {
+					"code": "br-br",
+					"url": {
+						"display": "http://www.colgatepalmolive.com.br/app/Colgate/BR/CompanyHomePage.cvsp",
+						"text": "Brazil"
+					}
+				},
+				"tel": {
+					"display": "0-800-703-7722",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Brazil.png"
+				}
+			},
+			{
+				"name": "Canada (English)",
+				"locale": {
+					"code": "en-ca",
+					"url": {
+						"display": "http://www.colgate.ca/app/Colgate/CA/EN/CompanyHomePage.cvsp",
+						"text": "Canada"
+					}
+				},
+				"tel": {
+					"display": "1-800-268-6757",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Canada.png"
+				}
+			},
+			{
+				"name": "Canada (Français)",
+				"locale": {
+					"code": "fr-ca",
+					"url": {
+						"display": "http://www.colgate.ca/app/Colgate/CA/FR/CompanyHomePage.cvsp",
+						"text": "Canada"
+					}
+				},
+				"tel": {
+					"display": "1-800-268-6757",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Canada.png"
+				}
+			},
+			{
+				"name": "Chile",
+				"locale": {
+					"code": "es-cl",
+					"url": {
+						"display": "http://www.colgate.cl/app/Colgate/CL/CompanyHomePage.cvsp",
+						"text": "Chile"
+					}
+				},
+				"tel": {
+					"display": "56-2-800 200 510",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Chile.png"
+				}
+			},
+			{
+				"name": "China",
+				"locale": {
+					"code": "zh-zh",
+					"url": {
+						"display": "http://www.colgate.com.cn/app/Colgate/CN/CompanyHomePage.cvsp",
+						"text": "China"
+					}
+				},
+				"tel": {
+					"display": "800-8302238",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_China.png"
+				}
+			},
+			{
+				"name": "Colombia",
+				"locale": {
+					"code": "es-co",
+					"url": {
+						"display": "http://www.colgate.com.co/app/Colgate/CO/CompanyHomePage.cvsp",
+						"text": "Colombia"
+					}
+				},
+				"tel": {
+					"display": "01-8000-520-800",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Colombia.png"
+				}
+			},
+			{
+				"name": "Costa Rica",
+				"locale": {
+					"code": "es-gt",
+					"url": {
+						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"text": "Costa Rica"
+					}
+				},
+				"flag": {
+					"src": "flag_Costa-Rica.png"
+				}
+			},
+			{
+				"name": "Croatia",
+				"locale": {
+					"code": "hr-hr",
+					"url": {
+						"display": "http://www.colgate.hr/app/Colgate/HR/CompanyHomePage.cvsp",
+						"text": "Croatia"
+					}
+				},
+				"flag": {
+					"src": "flag_Costa-Rica.png"
+				}
+			},
+			{
+				"name": "Czech Republic",
+				"locale": {
+					"code": "cs-cz",
+					"url": {
+						"display": "http://www.colgate.cz/app/Colgate/CZ/HomePage.cvsp",
+						"text": "Czech Republic"
+					}
+				},
+				"tel": {
+					"display": "800-COLGATE (2654283)",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Costa-Rica.png"
+				}
+			},
+			{
+				"name": "Denmark",
+				"locale": {
+					"code": "da-da",
+					"url": {
+						"display": "http://www.colgate.dk/app/Colgate/DK/CompanyHomePage.cvsp",
+						"text": "Denmark"
+					}
+				},
+				"tel": {
+					"display": "45-80-60-70-00",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Denmark.png"
+				}
+			},
+			{
+				"name": "Dominican Republic",
+				"locale": {
+					"code": "es-do",
+					"url": {
+						"display": "http://www.colgate.com.do/app/Colgate/DO/CompanyHomePage.cvsp",
+						"text": "Dominican Republic"
+					}
+				},
+				"tel": {
+					"display": "1-809-200-1472",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Dominican-Republic.png"
+				}
+			},
+			{
+				"name": "Ecuador",
+				"locale": {
+					"code": "es-ec",
+					"url": {
+						"display": "http://www.colgate.com.ec/app/Colgate/EC/CompanyHomePage.cvsp",
+						"text": "Ecuador"
+					}
+				},
+				"tel": {
+					"display": "1-800-895020",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Ecuador.png"
+				}
+			},
+			{
+				"name": "El Salvador",
+				"locale": {
+					"code": "es-gt",
+					"url": {
+						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"text": "El Salvador"
+					}
+				},
+				"flag": {
+					"src": "flag_Ecuador.png"
+				}
+			},
+			{
+				"name": "France",
+				"locale": {
+					"code": "fr-fr",
+					"url": {
+						"display": "http://www.colgate.fr/app/Colgate/FR/CompanyHomePage.cvsp",
+						"text": "France"
+					}
+				},
+				"tel": {
+					"display": "0-810-63-27-20 (Household Surface Care/Fabric Care), 0-810-63-45-26 (Oral Care and Body Care)",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_France.png"
+				}
+			},
+			{
+				"name": "Germany",
+				"locale": {
+					"code": "de-de",
+					"url": {
+						"display": "http://www.colgate.de/app/Colgate/DE/CompanyHomePage.cvsp",
+						"text": "Germany"
+					}
+				},
+				"tel": {
+					"display": "0800-725-66-54",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Germany.png"
+				}
+			},
+			{
+				"name": "Greece",
+				"locale": {
+					"code": "el-gr",
+					"url": {
+						"display": "http://www.colgate.com.gr/app/Colgate/GR/CompanyHomePage.cvsp",
+						"text": "Greece"
+					}
+				},
+				"tel": {
+					"display": "800-11-25100",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Greece.png"
+				}
+			},
+			{
+				"name": "Guatemala",
+				"locale": {
+					"code": "es-gt",
+					"url": {
+						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"text": "Guatemala"
+					}
+				},
+				"tel": {
+					"display": "1-801-265-4283",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Guademala.png"
+				}
+			},
+			{
+				"name": "Honduras",
+				"locale": {
+					"code": "es-gt",
+					"url": {
+						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"text": "Honduras"
+					}
+				},
+				"tel": {
+					"display": "238-5476",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Honduras.png"
+				}
+			},
+			{
+				"name": "Hong Kong",
+				"locale": {
+					"code": "zh-hk",
+					"url": {
+						"display": "http://www.colgate.com.hk/app/Colgate/HK/CompanyHomePage.cvsp",
+						"text": "Hong Kong"
+					}
+				},
+				"tel": {
+					"display": "800-938281",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Hong-Kong.png"
+				}
+			},
+			{
+				"name": "India",
+				"locale": {
+					"code": "zh-hk",
+					"url": {
+						"display": "http://www.colgate.co.in/app/Colgate/IN/HomePage.cvsp",
+						"text": "India"
+					}
+				},
+				"tel": {
+					"display": "1-800-225599",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_India.png"
+				}
+			},
+			{
+				"name": "Ireland",
+				"locale": {
+					"code": "ga-ie",
+					"url": {
+						"display": "http://www.colgate.co.uk/app/Colgate/UK/CompanyHomePage.cvsp",
+						"text": "Ireland"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Ireland.png"
+				}
+			},
+			{
+				"name": "Italy",
+				"locale": {
+					"code": "it-it",
+					"url": {
+						"display": "http://www.colgate.it/app/Colgate/IT/CompanyHomePage.cvsp",
+						"text": "Italy"
+					}
+				},
+				"tel": {
+					"display": "800-860047",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Italy.png"
+				}
+			},
+			{
+				"name": "Latvia",
+				"locale": {
+					"code": "lv-lv",
+					"url": {
+						"display": "http://www.colgate.lv/app/Colgate/LV/HomePage.cvsp",
+						"text": "Latvia"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32 (Oral Care)",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Latvia.png"
+				}
+			},
+			{
+				"name": "Malaysia",
+				"locale": {
+					"code": "en-my",
+					"url": {
+						"display": "http://www.colgate.com.my/app/Colgate/MY/HomePage.cvsp",
+						"text": "Malaysia"
+					}
+				},
+				"tel": {
+					"display": "1-800-883-918",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Malaysia.png"
+				}
+			},
+			{
+				"name": "Mexico",
+				"locale": {
+					"code": "en-my",
+					"url": {
+						"display": "http://www.colgate.com.mx/app/Colgate/MX/CompanyHomePage.cvsp",
+						"text": "Mexico"
+					}
+				},
+				"tel": {
+					"display": "01-800-001-1400",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Mexico.png"
+				}
+			},
+			{
+				"name": "Netherlands",
+				"locale": {
+					"code": "nl-nl",
+					"url": {
+						"display": "http://www.colgate.nl/app/Colgate/NL/HomePage.cvsp",
+						"text": "Netherlands"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Netherlands.png"
+				}
+			},
+			{
+				"name": "Nicaragua",
+				"locale": {
+					"code": "es-gt",
+					"url": {
+						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/HomePage.cvsp",
+						"text": "Nicaragua"
+					}
+				},
+				"tel": {
+					"display": "269-6244",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Nicaragua.png"
+				}
+			},
+			{
+				"name": "Norway",
+				"locale": {
+					"code": "nn-no",
+					"url": {
+						"display": "http://www.colgate.no/app/Colgate/NO/CompanyHomePage.cvsp",
+						"text": "Norway"
+					}
+				},
+				"tel": {
+					"display": "47-800-400-75",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Norway.png"
+				}
+			},
+			{
+				"name": "Pakistan",
+				"locale": {
+					"code": "pk-pk",
+					"url": {
+						"display": "http://colgate.com.pk/app/Colgate/PK/HomePage.html",
+						"text": "Pakistan"
+					}
+				},
+				"tel": {
+					"display": "47-800-400-75",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Pakistan.png"
+				}
+			},
+			{
+				"name": "Panama",
+				"locale": {
+					"code": "es-gt",
+					"url": {
+						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"text": "Panama"
+					}
+				},
+				"tel": {
+					"display": "800-COL2 (2652)",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Panama.png"
+				}
+			},
+			{
+				"name": "Paraguay",
+				"locale": {
+					"code": "es-py",
+					"url": {
+						"display": "http://www.colgate.com.py/app/Colgate/PY/CompanyHomePage.cvsp",
+						"text": "Paraguay"
+					}
+				},
+				"tel": {
+					"display": "0098005420055",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Paraguay.png"
+				}
+			},
+			{
+				"name": "Peru",
+				"locale": {
+					"code": "es-pe",
+					"url": {
+						"display": "http://www.colgate.com.pe/app/Colgate/PE/CompanyHomePage.cvsp",
+						"text": "Peru"
+					}
+				},
+				"tel": {
+					"display": "0801-1-3636",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Peru.png"
+				}
+			},
+			{
+				"name": "Philippines",
+				"locale": {
+					"code": "fil-ph",
+					"url": {
+						"display": "http://www.colgate.ph/app/Colgate/PH/CompanyHomePage.cvsp",
+						"text": "Philippines"
+					}
+				},
+				"tel": {
+					"display": "1-800-1-888-2774",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Philippines.png"
+				}
+			},
+			{
+				"name": "Poland",
+				"locale": {
+					"code": "pl-pl",
+					"url": {
+						"display": "http://www.colgate.pl/app/Colgate/PL/CompanyHomePage.cvsp",
+						"text": "Poland"
+					}
+				},
+				"tel": {
+					"display": "0-801-11-66-11",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Poland.png"
+				}
+			},
+			{
+				"name": "Portugal",
+				"locale": {
+					"code": "pt-pt",
+					"url": {
+						"display": "http://www.colgate.pt/app/Colgate/PT/CompanyHomePage.cvsp",
+						"text": "Portugal"
+					}
+				},
+				"tel": {
+					"display": "00 800 321 321 32 (Oral Care Only)",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Portugal.png"
+				}
+			},
+			{
+				"name": "Romania",
+				"locale": {
+					"code": "ro-ro",
+					"url": {
+						"display": "http://www.colgate.ro/app/Colgate/RO/CompanyHomePage.cvsp",
+						"text": "Romania"
+					}
+				},
+				"tel": {
+					"display": "0800 070 027",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Romania.png"
+				}
+			},
+			{
+				"name": "Russia",
+				"locale": {
+					"code": "ru-ru",
+					"url": {
+						"display": "http://www.colgate.ru/app/Colgate/RU/CompanyHomePage.cvsp",
+						"text": "Russia"
+					}
+				},
+				"tel": {
+					"display": "0800 070 027",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Russian-Federation.png"
+				}
+			},
+			{
+				"name": "Singapore",
+				"locale": {
+					"code": "en-sg",
+					"url": {
+						"display": "http://www.colgate.com.sg/app/Colgate/SG/CompanyHomePage.cvsp",
+						"text": "Singapore"
+					}
+				},
+				"tel": {
+					"display": "800-6011-251",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Singapore.png"
+				}
+			},
+			{
+				"name": "Slovakia",
+				"locale": {
+					"code": "sk-sk",
+					"url": {
+						"display": "http://www.colgate.com/app/Colgate/SK/HomePage.cvsp",
+						"text": "Slovakia"
+					}
+				},
+				"tel": {
+					"display": "800-6011-251",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Slovakia.png"
+				}
+			},
+			{
+				"name": "Slovenia",
+				"locale": {
+					"code": "sl-si",
+					"url": {
+						"display": "http://www.colgate.si/app/Colgate/SI/HomePage.cvsp",
+						"text": "Slovenia"
+					}
+				},
+				"tel": {
+					"display": "800-6011-251",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Slovenia.png"
+				}
+			},
+			{
+				"name": "South Africa",
+				"locale": {
+					"code": "en-za",
+					"url": {
+						"display": "http://www.colgate.co.za/app/Colgate/ZA/CompanyHomePage.cvsp",
+						"text": "South Africa"
+					}
+				},
+				"tel": {
+					"display": "0860-114-146",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_South-Africa.png"
+				}
+			},
+			{
+				"name": "Spain",
+				"locale": {
+					"code": "es-es",
+					"url": {
+						"display": "http://www.colgate.es/app/Colgate/ES/CompanyHomePage.cvsp",
+						"text": "Spain"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Spain.png"
+				}
+			},
+			{
+				"name": "Sweden",
+				"locale": {
+					"code": "sv-se",
+					"url": {
+						"display": "http://www.colgate.se/app/Colgate/SE/CompanyHomePage.cvsp",
+						"text": "Sweden"
+					}
+				},
+				"tel": {
+					"display": "00-90-888-99-57",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Sweden.png"
+				}
+			},
+			{
+				"name": "Switzerland",
+				"locale": {
+					"code": "de-ch",
+					"url": {
+						"display": "http://www.colgate.ch/app/Colgate/CH/DE/HomePage.cvsp",
+						"text": "Switzerland"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32 (Oral Care Only)",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Switzerland.png"
+				}
+			},
+			{
+				"name": "Taiwan",
+				"locale": {
+					"code": "zh-tw",
+					"url": {
+						"display": "http://www.colgate.com.tw/app/Colgate/TW/ZH/HomePage.cvsp",
+						"text": "Taiwan"
+					}
+				},
+				"tel": {
+					"display": "0800011176",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Taiwan.png"
+				}
+			},
+			{
+				"name": "Thailand",
+				"locale": {
+					"code": "th-th",
+					"url": {
+						"display": "http://www.colgate.co.th/app/Colgate/TH/TH/CompanyHomePage.cvsp",
+						"text": "Thailand"
+					}
+				},
+				"tel": {
+					"display": "1-800-800-900",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Thailand.png"
+				}
+			},
+			{
+				"name": "Turkey",
+				"locale": {
+					"code": "tr-tr",
+					"url": {
+						"display": "http://www.colgate.com.tr/app/Colgate/TR/HomePage.cvsp",
+						"text": "Turkey"
+					}
+				},
+				"tel": {
+					"display": "Pay Line: 0216-519 81 01",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Turkey.png"
+				}
+			},
+			{
+				"name": "Ukraine",
+				"locale": {
+					"code": "uk-ua",
+					"url": {
+						"display": "http://www.colgate.com.ua/app/Colgate/UA/UA/CompanyHomePage.cvsp",
+						"text": "Ukraine"
+					}
+				},
+				"tel": {
+					"display": "Pay Line: 0216-519 81 01",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Ukraine.png"
+				}
+			},
+			{
+				"name": "United Kingdom",
+				"locale": {
+					"code": "en-gb",
+					"url": {
+						"display": "http://www.colgate.co.uk/app/Colgate/UK/CompanyHomePage.cvsp",
+						"text": "United Kingdom"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_United-Kingdom.png"
+				}
+			},
+			{
+				"name": "United States (English)",
+				"locale": {
+					"code": "en-us",
+					"url": {
+						"display": "http://www.colgatepalmolive.com/app/Colgate/US/CompanyHomePage.cvsp",
+						"text": "United States (English)"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_United-States-of-America.png"
+				}
+			},
+			{
+				"name": "United States (Español)",
+				"locale": {
+					"code": "es-us",
+					"url": {
+						"display": "http://www.colgate.com/app/Colgate/USES/CompanyHomePage.cvsp",
+						"text": "United States (Español)"
+					}
+				},
+				"tel": {
+					"display": "00-800-321-321-32",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_United-States-of-America.png"
+				}
+			},
+			{
+				"name": "Uruguay",
+				"locale": {
+					"code": "es-uy",
+					"url": {
+						"display": "http://www.colgate.com.uy/app/Colgate/UY/CompanyHomePage.cvsp",
+						"text": "Uruguay"
+					}
+				},
+				"tel": {
+					"display": "000405-4057",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Uruguay.png"
+				}
+			},
+			{
+				"name": "Venezuela",
+				"locale": {
+					"code": "es-ve",
+					"url": {
+						"display": "http://www.colgate.com.ve/app/Colgate/VE/CompanyHomePage.cvsp",
+						"text": "Venezuela"
+					}
+				},
+				"tel": {
+					"display": "0800-552-62-92",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Venezuela.png"
+				}
+			},
+			{
+				"name": "Vietnam",
+				"locale": {
+					"code": "vi-vn",
+					"url": {
+						"display": "http://www.colgate.com.vn/app/Colgate/VN/CompanyHomePage.cvsp",
+						"text": "Vietnam"
+					}
+				},
+				"tel": {
+					"display": "0800-552-62-92",
+					"text": "555-5555"
+				},
+				"flag": {
+					"src": "flag_Viet-Nam.png"
+				}
+			}
+		]
+	}
+}
