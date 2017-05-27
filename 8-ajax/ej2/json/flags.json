@@ -5,7 +5,7 @@
 				"locale": {
 					"code": "es-ar",
 					"url": {
-						"display": "http://www.colgate.com.ar/app/Colgate/AR/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.ar",
 						"text": "Argentina"
 					}
 				},
@@ -22,7 +22,7 @@
 				"locale": {
 					"code": "en-au",
 					"url": {
-						"display": "http://www.colgate.com.au/app/Colgate/AU/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.au",
 						"text": "Australia"
 					}
 				},
@@ -35,7 +35,7 @@
 				"locale": {
 					"code": "de-at",
 					"url": {
-						"display": "http://www.colgate.at/app/Colgate/AT/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.at",
 						"text": "Austria"
 					}
 				},
@@ -52,7 +52,7 @@
 				"locale": {
 					"code": "fr-be",
 					"url": {
-						"display": "http://www.colgate.be/app/Colgate/BE/FR/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.be/app/pagina-falsa/BE/FR/HomePage.cvsp",
 						"text": "Belgium (Français)"
 					}
 				},
@@ -69,7 +69,7 @@
 				"locale": {
 					"code": "nl-be",
 					"url": {
-						"display": "http://www.colgate.be/app/Colgate/BE/NL/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.be/app/pagina-falsa/BE/NL/HomePage.cvsp",
 						"text": "Belgium (Nederlands)"
 					}
 				},
@@ -86,7 +86,7 @@
 				"locale": {
 					"code": "es-bo",
 					"url": {
-						"display": "http://www.colgate.com.bo/app/Colgate/BO/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.bo",
 						"text": "Bolivia"
 					}
 				},
@@ -103,7 +103,7 @@
 				"locale": {
 					"code": "br-br",
 					"url": {
-						"display": "http://www.colgatepalmolive.com.br/app/Colgate/BR/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsapalmolive.com.br",
 						"text": "Brazil"
 					}
 				},
@@ -120,7 +120,7 @@
 				"locale": {
 					"code": "en-ca",
 					"url": {
-						"display": "http://www.colgate.ca/app/Colgate/CA/EN/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.ca/ap",
 						"text": "Canada"
 					}
 				},
@@ -137,7 +137,7 @@
 				"locale": {
 					"code": "fr-ca",
 					"url": {
-						"display": "http://www.colgate.ca/app/Colgate/CA/FR/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.ca/ap",
 						"text": "Canada"
 					}
 				},
@@ -154,7 +154,7 @@
 				"locale": {
 					"code": "es-cl",
 					"url": {
-						"display": "http://www.colgate.cl/app/Colgate/CL/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.cl",
 						"text": "Chile"
 					}
 				},
@@ -171,7 +171,7 @@
 				"locale": {
 					"code": "zh-zh",
 					"url": {
-						"display": "http://www.colgate.com.cn/app/Colgate/CN/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.cn",
 						"text": "China"
 					}
 				},
@@ -188,7 +188,7 @@
 				"locale": {
 					"code": "es-co",
 					"url": {
-						"display": "http://www.colgate.com.co/app/Colgate/CO/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.co",
 						"text": "Colombia"
 					}
 				},
@@ -205,7 +205,7 @@
 				"locale": {
 					"code": "es-gt",
 					"url": {
-						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsacentralamerica.com",
 						"text": "Costa Rica"
 					}
 				},
@@ -218,7 +218,7 @@
 				"locale": {
 					"code": "hr-hr",
 					"url": {
-						"display": "http://www.colgate.hr/app/Colgate/HR/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.hr",
 						"text": "Croatia"
 					}
 				},
@@ -231,12 +231,12 @@
 				"locale": {
 					"code": "cs-cz",
 					"url": {
-						"display": "http://www.colgate.cz/app/Colgate/CZ/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.cz/app/pagina-falsa/CZ/HomePage.cvsp",
 						"text": "Czech Republic"
 					}
 				},
 				"tel": {
-					"display": "800-COLGATE (2654283)",
+					"display": "800-pagina-falsa (2654283)",
 					"text": "555-5555"
 				},
 				"flag": {
@@ -248,7 +248,7 @@
 				"locale": {
 					"code": "da-da",
 					"url": {
-						"display": "http://www.colgate.dk/app/Colgate/DK/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.dk",
 						"text": "Denmark"
 					}
 				},
@@ -265,7 +265,7 @@
 				"locale": {
 					"code": "es-do",
 					"url": {
-						"display": "http://www.colgate.com.do/app/Colgate/DO/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.do",
 						"text": "Dominican Republic"
 					}
 				},
@@ -282,7 +282,7 @@
 				"locale": {
 					"code": "es-ec",
 					"url": {
-						"display": "http://www.colgate.com.ec/app/Colgate/EC/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.ec",
 						"text": "Ecuador"
 					}
 				},
@@ -299,7 +299,7 @@
 				"locale": {
 					"code": "es-gt",
 					"url": {
-						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsacentralamerica.com",
 						"text": "El Salvador"
 					}
 				},
@@ -312,7 +312,7 @@
 				"locale": {
 					"code": "fr-fr",
 					"url": {
-						"display": "http://www.colgate.fr/app/Colgate/FR/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.fr",
 						"text": "France"
 					}
 				},
@@ -329,7 +329,7 @@
 				"locale": {
 					"code": "de-de",
 					"url": {
-						"display": "http://www.colgate.de/app/Colgate/DE/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.de",
 						"text": "Germany"
 					}
 				},
@@ -346,7 +346,7 @@
 				"locale": {
 					"code": "el-gr",
 					"url": {
-						"display": "http://www.colgate.com.gr/app/Colgate/GR/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.gr",
 						"text": "Greece"
 					}
 				},
@@ -363,7 +363,7 @@
 				"locale": {
 					"code": "es-gt",
 					"url": {
-						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsacentralamerica.com",
 						"text": "Guatemala"
 					}
 				},
@@ -380,7 +380,7 @@
 				"locale": {
 					"code": "es-gt",
 					"url": {
-						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsacentralamerica.com",
 						"text": "Honduras"
 					}
 				},
@@ -397,7 +397,7 @@
 				"locale": {
 					"code": "zh-hk",
 					"url": {
-						"display": "http://www.colgate.com.hk/app/Colgate/HK/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.hk",
 						"text": "Hong Kong"
 					}
 				},
@@ -414,7 +414,7 @@
 				"locale": {
 					"code": "zh-hk",
 					"url": {
-						"display": "http://www.colgate.co.in/app/Colgate/IN/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.co.in/app/pagina-falsa/IN/HomePage.cvsp",
 						"text": "India"
 					}
 				},
@@ -431,7 +431,7 @@
 				"locale": {
 					"code": "ga-ie",
 					"url": {
-						"display": "http://www.colgate.co.uk/app/Colgate/UK/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.co.uk",
 						"text": "Ireland"
 					}
 				},
@@ -448,7 +448,7 @@
 				"locale": {
 					"code": "it-it",
 					"url": {
-						"display": "http://www.colgate.it/app/Colgate/IT/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.it",
 						"text": "Italy"
 					}
 				},
@@ -465,7 +465,7 @@
 				"locale": {
 					"code": "lv-lv",
 					"url": {
-						"display": "http://www.colgate.lv/app/Colgate/LV/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.lv/app/pagina-falsa/LV/HomePage.cvsp",
 						"text": "Latvia"
 					}
 				},
@@ -482,7 +482,7 @@
 				"locale": {
 					"code": "en-my",
 					"url": {
-						"display": "http://www.colgate.com.my/app/Colgate/MY/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.my/app/pagina-falsa/MY/HomePage.cvsp",
 						"text": "Malaysia"
 					}
 				},
@@ -499,7 +499,7 @@
 				"locale": {
 					"code": "en-my",
 					"url": {
-						"display": "http://www.colgate.com.mx/app/Colgate/MX/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.mx",
 						"text": "Mexico"
 					}
 				},
@@ -516,7 +516,7 @@
 				"locale": {
 					"code": "nl-nl",
 					"url": {
-						"display": "http://www.colgate.nl/app/Colgate/NL/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.nl/app/pagina-falsa/NL/HomePage.cvsp",
 						"text": "Netherlands"
 					}
 				},
@@ -533,7 +533,7 @@
 				"locale": {
 					"code": "es-gt",
 					"url": {
-						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/HomePage.cvsp",
+						"display": "http://www.pagina-falsacentralamerica.com/app/pagina-falsa/GT/HomePage.cvsp",
 						"text": "Nicaragua"
 					}
 				},
@@ -550,7 +550,7 @@
 				"locale": {
 					"code": "nn-no",
 					"url": {
-						"display": "http://www.colgate.no/app/Colgate/NO/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.no",
 						"text": "Norway"
 					}
 				},
@@ -567,7 +567,7 @@
 				"locale": {
 					"code": "pk-pk",
 					"url": {
-						"display": "http://colgate.com.pk/app/Colgate/PK/HomePage.html",
+						"display": "http://pagina-falsa.com.pk/app/pagina-falsa/PK/HomePage.html",
 						"text": "Pakistan"
 					}
 				},
@@ -584,7 +584,7 @@
 				"locale": {
 					"code": "es-gt",
 					"url": {
-						"display": "http://www.colgatecentralamerica.com/app/Colgate/GT/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsacentralamerica.com",
 						"text": "Panama"
 					}
 				},
@@ -601,7 +601,7 @@
 				"locale": {
 					"code": "es-py",
 					"url": {
-						"display": "http://www.colgate.com.py/app/Colgate/PY/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.py",
 						"text": "Paraguay"
 					}
 				},
@@ -618,7 +618,7 @@
 				"locale": {
 					"code": "es-pe",
 					"url": {
-						"display": "http://www.colgate.com.pe/app/Colgate/PE/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.pe",
 						"text": "Peru"
 					}
 				},
@@ -635,7 +635,7 @@
 				"locale": {
 					"code": "fil-ph",
 					"url": {
-						"display": "http://www.colgate.ph/app/Colgate/PH/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.ph",
 						"text": "Philippines"
 					}
 				},
@@ -652,7 +652,7 @@
 				"locale": {
 					"code": "pl-pl",
 					"url": {
-						"display": "http://www.colgate.pl/app/Colgate/PL/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.pl",
 						"text": "Poland"
 					}
 				},
@@ -669,7 +669,7 @@
 				"locale": {
 					"code": "pt-pt",
 					"url": {
-						"display": "http://www.colgate.pt/app/Colgate/PT/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.pt",
 						"text": "Portugal"
 					}
 				},
@@ -686,7 +686,7 @@
 				"locale": {
 					"code": "ro-ro",
 					"url": {
-						"display": "http://www.colgate.ro/app/Colgate/RO/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.ro",
 						"text": "Romania"
 					}
 				},
@@ -703,7 +703,7 @@
 				"locale": {
 					"code": "ru-ru",
 					"url": {
-						"display": "http://www.colgate.ru/app/Colgate/RU/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.ru",
 						"text": "Russia"
 					}
 				},
@@ -720,7 +720,7 @@
 				"locale": {
 					"code": "en-sg",
 					"url": {
-						"display": "http://www.colgate.com.sg/app/Colgate/SG/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.sg",
 						"text": "Singapore"
 					}
 				},
@@ -737,7 +737,7 @@
 				"locale": {
 					"code": "sk-sk",
 					"url": {
-						"display": "http://www.colgate.com/app/Colgate/SK/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.com/app/pagina-falsa/SK/HomePage.cvsp",
 						"text": "Slovakia"
 					}
 				},
@@ -754,7 +754,7 @@
 				"locale": {
 					"code": "sl-si",
 					"url": {
-						"display": "http://www.colgate.si/app/Colgate/SI/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.si/app/pagina-falsa/SI/HomePage.cvsp",
 						"text": "Slovenia"
 					}
 				},
@@ -771,7 +771,7 @@
 				"locale": {
 					"code": "en-za",
 					"url": {
-						"display": "http://www.colgate.co.za/app/Colgate/ZA/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.co.za",
 						"text": "South Africa"
 					}
 				},
@@ -788,7 +788,7 @@
 				"locale": {
 					"code": "es-es",
 					"url": {
-						"display": "http://www.colgate.es/app/Colgate/ES/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.es",
 						"text": "Spain"
 					}
 				},
@@ -805,7 +805,7 @@
 				"locale": {
 					"code": "sv-se",
 					"url": {
-						"display": "http://www.colgate.se/app/Colgate/SE/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.se",
 						"text": "Sweden"
 					}
 				},
@@ -822,7 +822,7 @@
 				"locale": {
 					"code": "de-ch",
 					"url": {
-						"display": "http://www.colgate.ch/app/Colgate/CH/DE/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.ch/app/pagina-falsa/CH/DE/HomePage.cvsp",
 						"text": "Switzerland"
 					}
 				},
@@ -839,7 +839,7 @@
 				"locale": {
 					"code": "zh-tw",
 					"url": {
-						"display": "http://www.colgate.com.tw/app/Colgate/TW/ZH/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.tw/app/pagina-falsa/TW/ZH/HomePage.cvsp",
 						"text": "Taiwan"
 					}
 				},
@@ -856,7 +856,7 @@
 				"locale": {
 					"code": "th-th",
 					"url": {
-						"display": "http://www.colgate.co.th/app/Colgate/TH/TH/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.co.th/ap",
 						"text": "Thailand"
 					}
 				},
@@ -873,7 +873,7 @@
 				"locale": {
 					"code": "tr-tr",
 					"url": {
-						"display": "http://www.colgate.com.tr/app/Colgate/TR/HomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.tr/app/pagina-falsa/TR/HomePage.cvsp",
 						"text": "Turkey"
 					}
 				},
@@ -890,7 +890,7 @@
 				"locale": {
 					"code": "uk-ua",
 					"url": {
-						"display": "http://www.colgate.com.ua/app/Colgate/UA/UA/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.ua/ap",
 						"text": "Ukraine"
 					}
 				},
@@ -907,7 +907,7 @@
 				"locale": {
 					"code": "en-gb",
 					"url": {
-						"display": "http://www.colgate.co.uk/app/Colgate/UK/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.co.uk",
 						"text": "United Kingdom"
 					}
 				},
@@ -924,7 +924,7 @@
 				"locale": {
 					"code": "en-us",
 					"url": {
-						"display": "http://www.colgatepalmolive.com/app/Colgate/US/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsapalmolive.com",
 						"text": "United States (English)"
 					}
 				},
@@ -941,7 +941,7 @@
 				"locale": {
 					"code": "es-us",
 					"url": {
-						"display": "http://www.colgate.com/app/Colgate/USES/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com/a",
 						"text": "United States (Español)"
 					}
 				},
@@ -958,7 +958,7 @@
 				"locale": {
 					"code": "es-uy",
 					"url": {
-						"display": "http://www.colgate.com.uy/app/Colgate/UY/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.uy",
 						"text": "Uruguay"
 					}
 				},
@@ -975,7 +975,7 @@
 				"locale": {
 					"code": "es-ve",
 					"url": {
-						"display": "http://www.colgate.com.ve/app/Colgate/VE/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.ve",
 						"text": "Venezuela"
 					}
 				},
@@ -992,7 +992,7 @@
 				"locale": {
 					"code": "vi-vn",
 					"url": {
-						"display": "http://www.colgate.com.vn/app/Colgate/VN/CompanyHomePage.cvsp",
+						"display": "http://www.pagina-falsa.com.vn",
 						"text": "Vietnam"
 					}
 				},

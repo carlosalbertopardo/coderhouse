@@ -1,10 +1,11 @@
 /*  
 
-EJERCICIO N°9
+EJERCICIO N°10
 
-Hagamos un "Read More!"
+Cajoneras!!
 
-	- Realizar un componente el cual solo se vea una parte de su texto y al apretar un boton se vea el texto completo
+	- Realizar componentes en los cuales al hacerle click a su header se muestre le contenido.
+	- Ademas, al apretar el botón, "Marcar como leído" se debe pone el header en otro color y hacer desaparecer al botón.
 
 */
 
@@ -39,22 +40,55 @@ Hagamos un "Read More!"
 				});
 
 				//boton
-				boton.on('click', function () {
+				boton.on('click', function (event) {
+					event.stopPropagation();
 					$(this).parent().addClass('leido');
 					$(this).hide();
 				})
 
 			})
 
+		}
 
+		function abrirMenu() {
+
+			$('nav').animate({
+				right: 0
+			});
+
+		}
+
+		function cerrarMenu() {
+
+			$('nav').animate({
+				right: "-200px"
+			})
 
 		}
 
 
+		function inicializarMenu() {
+
+			$('.menu .abrir').click(function () {
+
+				abrirMenu();
+
+			})
+
+			$('.menu .cerrar').click(function () {
+
+				cerrarMenu();
+
+			})
+
+		}
+
+
+
+
+		inicializarMenu();
 		inicializarCajoneras();
 
-
-
-
 	})
+
 })()

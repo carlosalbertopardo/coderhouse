@@ -1,0 +1,45 @@
+/* Base styles */
+
+body {
+	font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	color: #ac341c;
+	margin-bottom: 50px;
+	margin-top: 0;
+	font-size: 80px;
+	text-align: center;
+	line-height: 70px;
+    padding-top: 20px;
+
+}
+
+@font-face {
+  font-family: 'LosSimpsons';
+  src: url('../fonts/Simpsonfont.ttf'); /* IE9 Compat Modes */
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.subtitle {
+	font-size: 30px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.align-center {
+	text-align: center;
+}
+
+#sheldon {
+  position: absolute;
+  bottom:0;
+  left: -70px;
+  width: 390px;
+}

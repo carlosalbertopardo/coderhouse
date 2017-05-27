@@ -122,26 +122,26 @@ p.description {
 }
 
 .menu .cruz {
+    display: none;
 	height: 16px;
     position: relative;
     top: 2px;
 }
 
 .menu .hamburguesa {
-	display: none;
     height: 16px;
     position: relative;
     top: 1px;	
 }
 
 nav {
-    width: 200px;
-    position: absolute;
-    right: 0;
+    width: 195px;
+    position: fixed;
+    right: -200px;
     background-color: #fff;
     border: 1px solid #2d2d2d;
     height: 400px;
-	top: 67px;
+    top: 67px;
 }
 
 nav h2 {
