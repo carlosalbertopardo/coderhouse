@@ -30,3 +30,7 @@ p.description {
 .align-center {
 	text-align: center;
 }
+
+#header-image {
+	position: relative;
+}

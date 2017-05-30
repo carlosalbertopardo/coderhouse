@@ -30,3 +30,16 @@ p.description {
 .align-center {
 	text-align: center;
 }
+
+img {
+	max-width: 100px;
+}
+
+.read-more-content {
+	overflow: hidden;
+	position: relative;
+}
+
+.read-less {
+	display: none
+}

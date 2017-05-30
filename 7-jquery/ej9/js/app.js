@@ -14,4 +14,56 @@ de contenido, pero solo vemos una parte del mismo. Al apretar un botón readMore
 
 */
 
+(function () {
 
+	$(document).ready(function () {
+
+		var components = $('.read-more-component');
+
+		//each
+
+		components.each(function (indice, elemento) {
+
+			console.log(indice);
+			console.log(elemento);
+
+			var readMoreButton = $(elemento).find('.read-more');
+			var readLessButton = $(elemento).find('.read-less');
+			var content = $(elemento).find('.read-more-content');
+			var stop = $(elemento).find('.stop');
+
+
+			var alturaMaxima = content.height();
+			var alturaMinima = stop.position().top; 
+
+			content.height(alturaMinima);
+
+			readMoreButton.on('click', function (event) {
+
+				content.height(alturaMaxima);
+				readMoreButton.hide();
+				readLessButton.show();
+
+			});
+
+
+			readLessButton.on('click', function (event) {
+
+				content.height(alturaMinima);
+				readLessButton.hide();
+				readMoreButton.show();
+
+			});
+
+
+
+		});
+
+/*
+
+*/
+
+	})
+
+
+})()

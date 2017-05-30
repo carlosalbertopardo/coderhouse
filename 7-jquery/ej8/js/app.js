@@ -15,12 +15,9 @@ console.log('in');
 var imagen = $('#header-image');
 
 imagen.on('load', function () {
-	console.log('se termino de cargar la imagen');	
-
-
-
+	console.log('se termino de cargar la imagen');
+	centerImage();	
 })
-
 
 var size = $(window).width();
 
@@ -35,5 +32,3 @@ if( size < mobile )	{
 } else {
 	imagen.attr('src','img/chavo-1920.png'); 
 }
-
-

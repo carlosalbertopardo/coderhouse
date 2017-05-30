@@ -9,4 +9,34 @@ Nuestro primer ajax :)
 
 */
 
+$.ajax({
+	type: 'GET', //  POST
+	dataType: "json",
+	url: 'js/colores.json', 
+	success: function (data) {
+
+
+		var objetoColores = data;
+		var arrayDeColores = objetoColores.colorsArray;
+
+		for (var i = 0; i < arrayDeColores.length; i++) {
+	
+			console.log(arrayDeColores[i].colorName);
+	
+			var seccion = $('<section></section>');
+			seccion.css('background-color', arrayDeColores[i].colorName)
+
+			seccion.html(arrayDeColores[i].colorName);
+			$('body').append(seccion);
+
+
+		}
+
+
+	},
+	error: function (data) {
+		console.log(data);
+		console.log('No se encontró el archivo');
+	}
+});
 
