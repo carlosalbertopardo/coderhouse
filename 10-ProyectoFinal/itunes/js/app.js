@@ -9,20 +9,23 @@ EJERCICIO N°4
 
 /*  
 
-EJERCICIO N°4
+Trabajo práctico final.
 
-Spotify
+iTunes Data 
+
+https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/#searchexamples
 
 */
 
 
 $.ajax({
 	type: 'GET', //Tipo de operación que voy a realizar
-	dataType: "json", //El tipo de datos que voy a traer
-	url: 'https://api.spotify.com/v1/artists/6Q6qTNC2rAegcR5QjzcRgE/albums?album_type=Album&limit=50', //La url de donde estan los datos
+	dataType: "jsonp", //El tipo de datos que voy a traer
+	url: 'https://itunes.apple.com/search?term=jack+johnson', //La url de donde estan los datos
 	success: function (data) { //Lo que voy a hacer si llega bien la informacion
-		console.log(data.items);
+		console.log(data);
 
+		/*
 		var albums = data.items;
 
 		for (var i = 0; i < albums.length; i++) {
@@ -42,7 +45,7 @@ $.ajax({
 
 			$('body').append(imagen);
 
-		}
+		}*/
 
 
 	},

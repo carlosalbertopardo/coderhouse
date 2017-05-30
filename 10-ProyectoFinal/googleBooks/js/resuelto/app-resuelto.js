@@ -2,15 +2,6 @@
 
 EJERCICIO N°4
 
-- Utilizar la api de spotify para traer información de los discos de un artista.
-
-*/
-
-
-/*  
-
-EJERCICIO N°4
-
 Spotify
 
 */
@@ -26,24 +17,20 @@ $.ajax({
 		var albums = data.items;
 
 		for (var i = 0; i < albums.length; i++) {
+
+			console.log(albums[i]);
+
+			var albumImageUrl = albums[i].images[0].url;
+
+			var image = '<img src="'+albumImageUrl +'"/>';
+
 			console.log(albums[i].name);
+			console.log(image);
 
-			//Cargar Titulo
-			var titulo = $('<h2></h2>');
-			titulo.html(albums[i].name);
-			$('body').append(titulo);
-
-
-			//Cargar imagen
-			var imagenes = albums[i].images;
-			console.log(imagenes[0].url);
-			var imagen = $('<img>');
-			imagen.attr('src', imagenes[0].url );
-
-			$('body').append(imagen);
+			$('main').append('<h2>'+albums[i].name+'</h2>');
+			$('main').append(image);
 
 		}
-
 
 	},
 	error: function (data) { //Lo que voy a hacer si llega mal la información

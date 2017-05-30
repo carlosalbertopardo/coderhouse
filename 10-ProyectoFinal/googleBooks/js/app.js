@@ -9,9 +9,15 @@ EJERCICIO N°4
 
 /*  
 
-EJERCICIO N°4
+Trabajo práctico final.
 
-Spotify
+Netflix roulete
+
+La appy de netflix roulete nos permite hacer ajax request devolviendonos 1 solo resultado como pelicula o serie sugerida
+
+Un ejemplo es esta url:
+http://netflixroulette.net/api/api.php?title=The%20Boondocks&year=2005
+
 
 */
 
@@ -19,10 +25,11 @@ Spotify
 $.ajax({
 	type: 'GET', //Tipo de operación que voy a realizar
 	dataType: "json", //El tipo de datos que voy a traer
-	url: 'https://api.spotify.com/v1/artists/6Q6qTNC2rAegcR5QjzcRgE/albums?album_type=Album&limit=50', //La url de donde estan los datos
+	url: 'https://www.googleapis.com/books/v1/volumes?q=harry+potter', //La url de donde estan los datos
 	success: function (data) { //Lo que voy a hacer si llega bien la informacion
-		console.log(data.items);
+		console.log(data);
 
+		/*
 		var albums = data.items;
 
 		for (var i = 0; i < albums.length; i++) {
@@ -42,7 +49,7 @@ $.ajax({
 
 			$('body').append(imagen);
 
-		}
+		}*/
 
 
 	},
