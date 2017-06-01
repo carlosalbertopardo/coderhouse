@@ -46,11 +46,26 @@ function showPokemon(data) {
 	//Set Number
 	$('#poke-number').html(data.id);
 
+	//Add Description
+	makeAjaxRequest('http://pokeapi.co/api/v2/pokemon-species/'+ data.id, showDescription);
+
 }
 
+function showLoader() {
+	$('.loading').show();
+}
+
+function hideLoader() {
+	$('.loading').hide();
+}
 
 function showDescription (data) {
 	$('#poke-info').html(data.flavor_text_entries[1].flavor_text);
+
+	//Hide Loading Logo.
+	hideLoader();
+
+
 }
 
 function addPokemons (data) {
@@ -69,13 +84,12 @@ function addPokemons (data) {
 		//Attach click event
 		nameContainer.click(function (event) {
 			
+			$('.init').hide();
 			event.preventDefault();
 			var ajaxUrl = event.target.href;
 
+			showLoader();
 			makeAjaxRequest(ajaxUrl, showPokemon );
-
-			var descriptionUrl = ajaxUrl.replace("pokemon", "pokemon-species");
-			makeAjaxRequest(descriptionUrl, showDescription)
 
 		});
 
