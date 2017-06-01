@@ -1,0 +1,86 @@
+/* Base styles */
+
+body {
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+header {
+
+}
+
+h1 {
+	margin-bottom: 50px;
+	margin-top: 0;
+	font-size: 80px;
+	text-align: center;
+	line-height: 70px;
+	padding-top: 20px;
+	font-family: fantasy;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+
+h1 .logo {
+	max-width: 80%
+
+}
+
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.subtitle {
+	font-size: 30px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.align-center {
+	text-align: center;
+}
+
+ul {
+	padding: 0;
+	margin: 0
+}
+
+ul li {
+	list-style: none;
+	height: 30px;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;    
+}
+
+ul li img {
+	width: 100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.pokemon-list {
+	background-color: #FFF;
+	width: 25%;
+}
