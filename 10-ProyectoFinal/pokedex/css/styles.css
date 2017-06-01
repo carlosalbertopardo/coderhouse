@@ -61,6 +61,8 @@ ul li {
 	font-family: monospace;    
 }
 
+
+
 ul li img {
 	width: 100%;
 }
@@ -79,8 +81,89 @@ ul li img {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+/* Pokemon list */
+
+#pokedex {
+	height: 500px;
+    padding: 20px;
+    background-color: darkred;
+    border-radius: 15px;
+}
 
 .pokemon-list {
-	background-color: #FFF;
-	width: 25%;
+    background-color: #FFF;
+    width: 25%;
+    float: left;
+    height: 100%;
+    overflow: auto;
+    margin-right: 10px;
+}
+
+.pokemon-list a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #2d2d2d;	
+}
+
+/* Pokedex description */
+.pokedex-screen {
+	float: right;
+	width: 70%;
+	background-color: #fff;
+	height: 100%;
+}
+
+.pokedex-screen .info-container {
+	padding: 20px;
+}
+
+.pokedex-screen .info-container img {
+    width: 100%;
+    border: 1px solid #2d2d2d;
+    float: left;
+}
+
+
+/* two col layout */
+.first-col {
+	float: left;
+	width: 20%;
+}
+
+.second-col {
+	float: right;
+	width: 75%
+}
+
+.types li {
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    padding: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.types li.fire {
+	background-color: red;
+	color: #fff;
+}
+.types li.poison {
+	background-color: violet;
+	color: #fff;
+}
+.types li.grass {
+	background-color: green;
+	color: #fff;
+}
+.types li.water {
+	background-color: lightblue;
+}
+.types li.flying {
+	background-color: brown;
+}
+.types li.bug {
+	background-color: darkgreen;
 }
