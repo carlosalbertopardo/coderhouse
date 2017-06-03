@@ -1,0 +1,19 @@
+.articulo {
+    border-radius: 10px;
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+
+.urgente{
+    background-color: red;
+    color: #fff
+}
+
+.importante{
+    background-color: yellow;
+}
+
+.normal {
+    background-color: antiquewhite;
+}

@@ -25,7 +25,6 @@
 	$('#generar').click(function (event) {
 
 		event.preventDefault();
-		console.log('holaaaaa');
 
 	})
 

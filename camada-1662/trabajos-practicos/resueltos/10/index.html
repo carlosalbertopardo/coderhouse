@@ -8,7 +8,7 @@
 	<title>TP10 - Lista de articulos</title>
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -24,27 +24,27 @@
 			</div>
 			<div class="form-group">
 				<label for="">Texto</label>
-				<textarea id="contenido" cols="30" rows="3" class="form-control"></textarea>
+				<textarea id="contenido" class="form-control"></textarea>
 			</div>
 			<div class="form-group">
 				<label for="">Importancia</label>
 				<select class="form-control" id="importancia">
-					<option value="info">Normal</option>
-					<option value="warning">Destacada</option>
-					<option value="danger">Alerta</option>
+					<option value="normal">Normal</option>
+					<option value="importante">Destacada</option>
+					<option value="urgente">Alerta</option>
 				</select>
 			</div>
 			<div class="form-group">
-				<button type="submit" class="btn btn-primary">Cargar noticia</button>
+				<button id="agregar" class="btn btn-primary">Cargar noticia</button>
 			</div>
 		</form>
 
-		<div id="mostar" class="col-sm-8">
+		<div class="artículos">
 			<h2>Mostrar noticias</h2>
 			<div id="noticias">
-
 			</div>
 		</div>
+
 	</main>
 	<!--Scripts below this line-->
 	<script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
