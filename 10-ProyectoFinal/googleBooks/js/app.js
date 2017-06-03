@@ -1,60 +1,37 @@
 /*  
 
-EJERCICIO N°4
+TRABAJO PRACTICO FINAL: GOOGLE BOOKS
 
-- Utilizar la api de spotify para traer información de los discos de un artista.
+En el siguiente trabajo practico utilizaremos la api de googleBooks para traer información de libros.
+
+Consignas:
+
+HEADER:
+- La página debe contar con un header con una imagen que al clickearla nos recargue la página.
+
+BODY
+- Debemos contar con un input en donde el usuario pueda ingresar las palabras para buscar libros.
+- Tambien habrá un boton de "Buscar" o una lupa, el cual al presionarlo realizará nuestra busqueda de libros en la api de googleBooks.
+- Cuando estemos buscando, deberemos mostrar un icono de "Cargando resultados..." en la pagina, el cual desaparecera cuando aparescan los resultados.
+- Por cada resultado obtenido deberemos renderizar:
+	- Titulo del libro
+	- Imagen
+	- Sinopsis
+	- link para bajar el libro en epub
+	- link para bajar el libro en PDF
+
+FOOTER
+- En el footer debemos tener informacion relevante con respecto al: autor, año, links a redes sociales
+- El footer tambien debe contar con un ancla que nos lleve hacia arriba de todo de la página.
+
+
+BONUS: Si clickeamos en una imagen de un libro deberemos abrir un "cuadro de dialogo" con la imagen
+grande dentro (Construirlo Manualmente)
+
+
+URLS de ejemplo para hacer Ajax Requests:
+https://www.googleapis.com/books/v1/volumes?q=harry+potter
+https://www.googleapis.com/books/v1/volumes?q=lord+of+the+rings
+https://www.googleapis.com/books/v1/volumes/2zgRDXFWkm8C
 
 */
-
-
-/*  
-
-Trabajo práctico final.
-
-Netflix roulete
-
-La appy de netflix roulete nos permite hacer ajax request devolviendonos 1 solo resultado como pelicula o serie sugerida
-
-Un ejemplo es esta url:
-http://netflixroulette.net/api/api.php?title=The%20Boondocks&year=2005
-
-
-*/
-
-
-$.ajax({
-	type: 'GET', //Tipo de operación que voy a realizar
-	dataType: "json", //El tipo de datos que voy a traer
-	url: 'https://www.googleapis.com/books/v1/volumes?q=harry+potter', //La url de donde estan los datos
-	success: function (data) { //Lo que voy a hacer si llega bien la informacion
-		console.log(data);
-
-		/*
-		var albums = data.items;
-
-		for (var i = 0; i < albums.length; i++) {
-			console.log(albums[i].name);
-
-			//Cargar Titulo
-			var titulo = $('<h2></h2>');
-			titulo.html(albums[i].name);
-			$('body').append(titulo);
-
-
-			//Cargar imagen
-			var imagenes = albums[i].images;
-			console.log(imagenes[0].url);
-			var imagen = $('<img>');
-			imagen.attr('src', imagenes[0].url );
-
-			$('body').append(imagen);
-
-		}*/
-
-
-	},
-	error: function (data) { //Lo que voy a hacer si llega mal la información
-		console.log(data);
-		console.log('could not find the file');
-	}
-});
