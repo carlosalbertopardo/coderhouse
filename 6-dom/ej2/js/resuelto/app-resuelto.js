@@ -9,22 +9,36 @@ EJERCICIO N°2
 
 */
 
-var inputNombre = document.getElementById('nombre');
+//Primero que todo tenemos que seleccionar todos nuestro inputs de tipo texto
+var textInputs = document.querySelectorAll('input[type="text"]');
 
-inputNombre.onclick = function (e) {
+//textInputs es una array donde cada una de la posiciones hay un input.
+//Como todo array lo recorremos con un ciclo for tradicional.
+for (var i = 0; i < textInputs.length; i++) {
+	
+	//Ahora, por cada input, le asignamos un evento para que cuando me situe en él, haga algo.
+	textInputs[i].onfocus = function (event) {
 
-	console.log(e.target);
-	console.log(this);
+		//Tener en cuenta que "this" en este caso es el input donde estoy accionando
+		console.log(this);
+		//Es lo mismo que event.target
+		console.log(event.target);
+		
+		//A partir del elemento donde estamos parados, seleccionamos al "Hermano" que tiene la clase description.
+		var sibling = this.parentNode.querySelector('.description');
+		//Luego mostramos el elemento.
+		sibling.style.display = 'block'	
 
-	var sibling = this.parentNode.querySelector('.description')
-	sibling.style.display = 'block'	
+	}
+
+	//Luego, otra vez en el mismo input le agrego un nuevo evento que reaccione cuando el mouse deja de estar sobre el input.
+	textInputs[i].onblur = function () {
+
+		//Nuevamente, partir del elemento donde estamos parados, seleccionamos al "Hermano" que tiene la clase description.
+		var sibling = this.parentNode.querySelector('.description');
+		//En este caso lo queremos esconder
+		sibling.style.display = 'none'	
+
+	}
 
 }
-
-inputNombre.onblur = function () {
-
-	var sibling = inputNombre.parentNode.querySelector('.description')
-	sibling.style.display = 'none'	
-
-}
-
